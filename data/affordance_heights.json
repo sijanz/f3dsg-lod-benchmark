@@ -1,0 +1,5302 @@
+{
+  "filter": null,
+  "total_targets": 220,
+  "floor_levels": {
+    "0kitchen": -1.2398,
+    "10kitchen": -1.2631,
+    "11bedroom": -1.2554,
+    "12kitchen": -0.943,
+    "13bathroom": -1.2951,
+    "1bathroom": -1.3276,
+    "2livingroom": -1.2322,
+    "3kitchen": -1.2608,
+    "4livingroom": -1.2587,
+    "5kitchen": -1.2595,
+    "6kitchen": -1.2365,
+    "7bedroom": -1.2859,
+    "8bathroom": -1.2768,
+    "9bedroom": -1.2493
+  },
+  "affordances": [
+    {
+      "scene_id": "0kitchen",
+      "annot_id": "968148bd-a8ce-4f77-88af-915d1a3cfadf",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 190,
+      "height_above_floor_m": 0.5435,
+      "height_min_m": 0.5151,
+      "height_max_m": 0.5683,
+      "height_span_m": 0.0532,
+      "raw_z_m": -0.684,
+      "floor_z_m": -1.2276,
+      "position_floor_aligned": [
+        1.186,
+        0.711,
+        0.544
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "497e0d19-d67a-4da0-a507-bbe96e9329d6",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "0kitchen",
+      "annot_id": "af4065a1-d122-473f-8f21-d1728ac7e69c",
+      "label": "power strip",
+      "category": "interactive_element",
+      "points": 624,
+      "height_above_floor_m": 0.617,
+      "height_min_m": 0.5857,
+      "height_max_m": 0.6251,
+      "height_span_m": 0.0394,
+      "raw_z_m": -0.6106,
+      "floor_z_m": -1.2276,
+      "position_floor_aligned": [
+        0.081,
+        1.304,
+        0.617
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "620851fe-b35f-4de6-912e-2ad779c993a9",
+        "label": "dishwasher",
+        "interaction": "provide power"
+      }
+    },
+    {
+      "scene_id": "0kitchen",
+      "annot_id": "10c8368a-7442-4ce9-a548-960b8bbacf26",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 225,
+      "height_above_floor_m": 0.6648,
+      "height_min_m": 0.6347,
+      "height_max_m": 0.6929,
+      "height_span_m": 0.0582,
+      "raw_z_m": -0.5628,
+      "floor_z_m": -1.2276,
+      "position_floor_aligned": [
+        0.263,
+        -0.555,
+        0.665
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "fcd973a3-39c9-4e84-a75f-abc957c42981",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "0kitchen",
+      "annot_id": "21bde071-9155-4ced-9f0e-4d3ab4066b76",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 280,
+      "height_above_floor_m": 0.6681,
+      "height_min_m": 0.6356,
+      "height_max_m": 0.6933,
+      "height_span_m": 0.0577,
+      "raw_z_m": -0.5595,
+      "floor_z_m": -1.2276,
+      "position_floor_aligned": [
+        0.588,
+        -0.109,
+        0.668
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "fcd973a3-39c9-4e84-a75f-abc957c42981",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "0kitchen",
+      "annot_id": "0aa2c320-71f1-4977-8f0d-5acd609e4743",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 203,
+      "height_above_floor_m": 0.6712,
+      "height_min_m": 0.6416,
+      "height_max_m": 0.6979,
+      "height_span_m": 0.0563,
+      "raw_z_m": -0.5564,
+      "floor_z_m": -1.2276,
+      "position_floor_aligned": [
+        1.188,
+        0.712,
+        0.671
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "497e0d19-d67a-4da0-a507-bbe96e9329d6",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "0kitchen",
+      "annot_id": "51a22b55-9a95-4d7d-a04a-a2566ce01605",
+      "label": "handle",
+      "category": "interactive_element",
+      "points": 1846,
+      "height_above_floor_m": 0.6805,
+      "height_min_m": 0.6611,
+      "height_max_m": 0.7058,
+      "height_span_m": 0.0447,
+      "raw_z_m": -0.5471,
+      "floor_z_m": -1.2276,
+      "position_floor_aligned": [
+        0.933,
+        0.383,
+        0.68
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "3b913a4b-4f6b-4d1c-827c-423fa2de9efc",
+        "label": "oven",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "0kitchen",
+      "annot_id": "e5379d07-9084-445f-8b2d-38f3ae136b02",
+      "label": "handle",
+      "category": "interactive_element",
+      "points": 488,
+      "height_above_floor_m": 0.684,
+      "height_min_m": 0.5892,
+      "height_max_m": 0.7743,
+      "height_span_m": 0.1851,
+      "raw_z_m": -0.5436,
+      "floor_z_m": -1.2276,
+      "position_floor_aligned": [
+        -0.023,
+        -0.927,
+        0.684
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "ca2b0708-a2b8-4f41-af84-2bf82994b95d",
+        "label": "fridge",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "0kitchen",
+      "annot_id": "a41f1593-b8ee-466e-a830-22231b56001e",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 277,
+      "height_above_floor_m": 0.7943,
+      "height_min_m": 0.7613,
+      "height_max_m": 0.8228,
+      "height_span_m": 0.0616,
+      "raw_z_m": -0.4333,
+      "floor_z_m": -1.2276,
+      "position_floor_aligned": [
+        0.702,
+        0.047,
+        0.794
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "fcd973a3-39c9-4e84-a75f-abc957c42981",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "0kitchen",
+      "annot_id": "df12f156-a009-44d6-9020-0839e1e20066",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 238,
+      "height_above_floor_m": 0.7944,
+      "height_min_m": 0.7626,
+      "height_max_m": 0.8226,
+      "height_span_m": 0.06,
+      "raw_z_m": -0.4332,
+      "floor_z_m": -1.2276,
+      "position_floor_aligned": [
+        0.458,
+        -0.286,
+        0.794
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "fcd973a3-39c9-4e84-a75f-abc957c42981",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "0kitchen",
+      "annot_id": "626f6834-3490-4d7d-8c01-7c1808f75a58",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 220,
+      "height_above_floor_m": 0.7969,
+      "height_min_m": 0.7666,
+      "height_max_m": 0.8243,
+      "height_span_m": 0.0577,
+      "raw_z_m": -0.4307,
+      "floor_z_m": -1.2276,
+      "position_floor_aligned": [
+        1.187,
+        0.711,
+        0.797
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "497e0d19-d67a-4da0-a507-bbe96e9329d6",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "0kitchen",
+      "annot_id": "840b0e7a-144e-4aef-aae0-41b1d097d74a",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 230,
+      "height_above_floor_m": 0.9423,
+      "height_min_m": 0.9185,
+      "height_max_m": 0.9638,
+      "height_span_m": 0.0452,
+      "raw_z_m": -0.2853,
+      "floor_z_m": -1.2276,
+      "position_floor_aligned": [
+        0.631,
+        0.819,
+        0.942
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "d92a7d97-1eb6-4340-bcb3-93a43e1235fb",
+        "label": "microwave oven",
+        "interaction": "rotate to open or close, adjust the setting"
+      }
+    },
+    {
+      "scene_id": "0kitchen",
+      "annot_id": "44baaedb-72de-4653-aaf9-7f17959c98ec",
+      "label": "handle",
+      "category": "interactive_element",
+      "points": 423,
+      "height_above_floor_m": 0.9673,
+      "height_min_m": 0.8555,
+      "height_max_m": 1.0626,
+      "height_span_m": 0.2071,
+      "raw_z_m": -0.2603,
+      "floor_z_m": -1.2276,
+      "position_floor_aligned": [
+        0.562,
+        0.847,
+        0.967
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "d92a7d97-1eb6-4340-bcb3-93a43e1235fb",
+        "label": "microwave oven",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "0kitchen",
+      "annot_id": "e1eae47e-45a4-4419-8b53-ca57f802ad0c",
+      "label": "faucet / handle",
+      "category": "interactive_element",
+      "points": 1211,
+      "height_above_floor_m": 0.9727,
+      "height_min_m": 0.8857,
+      "height_max_m": 1.034,
+      "height_span_m": 0.1483,
+      "raw_z_m": -0.2549,
+      "floor_z_m": -1.2276,
+      "position_floor_aligned": [
+        0.53,
+        -0.921,
+        0.973
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "dfae4ca4-7a87-402c-b5b7-a64354650b19",
+        "label": "kitchen sink",
+        "interaction": "control the water flow"
+      }
+    },
+    {
+      "scene_id": "0kitchen",
+      "annot_id": "12c8dbf9-5804-4081-95fb-f33ebcf78262",
+      "label": "handle",
+      "category": "interactive_element",
+      "points": 374,
+      "height_above_floor_m": 0.9956,
+      "height_min_m": 0.9545,
+      "height_max_m": 1.0206,
+      "height_span_m": 0.0661,
+      "raw_z_m": -0.232,
+      "floor_z_m": -1.2276,
+      "position_floor_aligned": [
+        -1.006,
+        -1.055,
+        0.996
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "34cd4100-47fb-4288-a81b-7b509b7dc996",
+        "label": "door",
+        "interaction": "rotate to open or close"
+      }
+    },
+    {
+      "scene_id": "0kitchen",
+      "annot_id": "200216d8-7731-4642-b5a9-ed10fccbb417",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 221,
+      "height_above_floor_m": 1.02,
+      "height_min_m": 0.9944,
+      "height_max_m": 1.0426,
+      "height_span_m": 0.0482,
+      "raw_z_m": -0.2076,
+      "floor_z_m": -1.2276,
+      "position_floor_aligned": [
+        0.624,
+        0.818,
+        1.02
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "d92a7d97-1eb6-4340-bcb3-93a43e1235fb",
+        "label": "microwave oven",
+        "interaction": "rotate to open or close, adjust the setting"
+      }
+    },
+    {
+      "scene_id": "0kitchen",
+      "annot_id": "628c98fb-4a7c-43a5-a36a-17989b8b88fc",
+      "label": "electric outlet",
+      "category": "interactive_element",
+      "points": 573,
+      "height_above_floor_m": 1.0511,
+      "height_min_m": 0.9996,
+      "height_max_m": 1.0936,
+      "height_span_m": 0.094,
+      "raw_z_m": -0.1765,
+      "floor_z_m": -1.2276,
+      "position_floor_aligned": [
+        1.009,
+        -0.517,
+        1.051
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": null,
+        "label": "unconnected",
+        "interaction": null
+      }
+    },
+    {
+      "scene_id": "0kitchen",
+      "annot_id": "2fd49995-e8d5-4a6f-9c12-77101076a31d",
+      "label": "electric outlet",
+      "category": "interactive_element",
+      "points": 696,
+      "height_above_floor_m": 1.064,
+      "height_min_m": 1.0006,
+      "height_max_m": 1.1156,
+      "height_span_m": 0.115,
+      "raw_z_m": -0.1636,
+      "floor_z_m": -1.2276,
+      "position_floor_aligned": [
+        -0.673,
+        0.939,
+        1.064
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "620851fe-b35f-4de6-912e-2ad779c993a9",
+        "label": "dishwasher",
+        "interaction": "provide power"
+      }
+    },
+    {
+      "scene_id": "0kitchen",
+      "annot_id": "f93a7e6b-9ae6-424f-abba-75a200488ab2",
+      "label": "switch / electric outlet",
+      "category": "interactive_element",
+      "points": 768,
+      "height_above_floor_m": 1.0757,
+      "height_min_m": 1.0239,
+      "height_max_m": 1.1397,
+      "height_span_m": 0.1158,
+      "raw_z_m": -0.1518,
+      "floor_z_m": -1.2276,
+      "position_floor_aligned": [
+        -0.868,
+        -1.253,
+        1.076
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": null,
+        "label": "unconnected",
+        "interaction": null
+      }
+    },
+    {
+      "scene_id": "0kitchen",
+      "annot_id": "f05bcfeb-2db5-4847-af36-e9b9347adb53",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 275,
+      "height_above_floor_m": 1.0982,
+      "height_min_m": 1.0686,
+      "height_max_m": 1.1266,
+      "height_span_m": 0.058,
+      "raw_z_m": -0.1294,
+      "floor_z_m": -1.2276,
+      "position_floor_aligned": [
+        -0.199,
+        1.154,
+        1.098
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "df66abca-4f71-4cad-a55f-a68ab5f77404",
+        "label": "cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "0kitchen",
+      "annot_id": "8883dc69-12a0-45eb-ad61-1f1a9674c9e0",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 237,
+      "height_above_floor_m": 1.4016,
+      "height_min_m": 1.3736,
+      "height_max_m": 1.4309,
+      "height_span_m": 0.0573,
+      "raw_z_m": 0.174,
+      "floor_z_m": -1.2276,
+      "position_floor_aligned": [
+        0.532,
+        -0.61,
+        1.402
+      ],
+      "reach_zone": "High (>1.2m)",
+      "parent_object": {
+        "annot_id": "3312a095-0d16-410b-aac2-4b0c41101a99",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "0kitchen",
+      "annot_id": "1f8267da-e2af-4ad5-b523-1f4d12edbd02",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 200,
+      "height_above_floor_m": 1.4025,
+      "height_min_m": 1.3753,
+      "height_max_m": 1.43,
+      "height_span_m": 0.0547,
+      "raw_z_m": 0.1749,
+      "floor_z_m": -1.2276,
+      "position_floor_aligned": [
+        0.135,
+        -1.145,
+        1.403
+      ],
+      "reach_zone": "High (>1.2m)",
+      "parent_object": {
+        "annot_id": "3312a095-0d16-410b-aac2-4b0c41101a99",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "0kitchen",
+      "annot_id": "acf92087-2ff9-4fe8-9064-9b1d4725674a",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 249,
+      "height_above_floor_m": 1.4035,
+      "height_min_m": 1.3748,
+      "height_max_m": 1.4336,
+      "height_span_m": 0.0588,
+      "raw_z_m": 0.1759,
+      "floor_z_m": -1.2276,
+      "position_floor_aligned": [
+        0.445,
+        -0.692,
+        1.403
+      ],
+      "reach_zone": "High (>1.2m)",
+      "parent_object": {
+        "annot_id": "3312a095-0d16-410b-aac2-4b0c41101a99",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "0kitchen",
+      "annot_id": "6e00881c-a983-4cd5-9bf9-ad4ace3d0319",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 249,
+      "height_above_floor_m": 1.4055,
+      "height_min_m": 1.3766,
+      "height_max_m": 1.4356,
+      "height_span_m": 0.059,
+      "raw_z_m": 0.1779,
+      "floor_z_m": -1.2276,
+      "position_floor_aligned": [
+        0.952,
+        -0.041,
+        1.406
+      ],
+      "reach_zone": "High (>1.2m)",
+      "parent_object": {
+        "annot_id": "3312a095-0d16-410b-aac2-4b0c41101a99",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "0kitchen",
+      "annot_id": "f9fe3c99-9aeb-43f0-b61c-50745b3d8105",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 218,
+      "height_above_floor_m": 1.4069,
+      "height_min_m": 1.3786,
+      "height_max_m": 1.4351,
+      "height_span_m": 0.0565,
+      "raw_z_m": 0.1793,
+      "floor_z_m": -1.2276,
+      "position_floor_aligned": [
+        1.345,
+        0.494,
+        1.407
+      ],
+      "reach_zone": "High (>1.2m)",
+      "parent_object": {
+        "annot_id": "139ec106-b936-4d61-bb37-3c4194d00f6b",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "0kitchen",
+      "annot_id": "f21fd874-dadf-440a-b74f-7529be92752f",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 15,
+      "height_above_floor_m": 1.7092,
+      "height_min_m": 1.704,
+      "height_max_m": 1.7148,
+      "height_span_m": 0.0108,
+      "raw_z_m": 0.4816,
+      "floor_z_m": -1.2276,
+      "position_floor_aligned": [
+        0.921,
+        0.187,
+        1.709
+      ],
+      "reach_zone": "High (>1.2m)",
+      "parent_object": {
+        "annot_id": "86df6fd9-8bbd-4ed5-bfc3-3d101184e672",
+        "label": "exhaust hood",
+        "interaction": "rotate to open or close, adjust the setting"
+      }
+    },
+    {
+      "scene_id": "0kitchen",
+      "annot_id": "975cb651-8816-4d14-a1db-dfb33c81363b",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 7,
+      "height_above_floor_m": 1.7119,
+      "height_min_m": 1.7094,
+      "height_max_m": 1.7146,
+      "height_span_m": 0.0052,
+      "raw_z_m": 0.4843,
+      "floor_z_m": -1.2276,
+      "position_floor_aligned": [
+        0.904,
+        0.162,
+        1.712
+      ],
+      "reach_zone": "High (>1.2m)",
+      "parent_object": {
+        "annot_id": "86df6fd9-8bbd-4ed5-bfc3-3d101184e672",
+        "label": "exhaust hood",
+        "interaction": "rotate to open or close, adjust the setting"
+      }
+    },
+    {
+      "scene_id": "10kitchen",
+      "annot_id": "67a2bf27-2929-4c3f-aaf6-0d792d035a00",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 143,
+      "height_above_floor_m": 0.3665,
+      "height_min_m": 0.3373,
+      "height_max_m": 0.3884,
+      "height_span_m": 0.0511,
+      "raw_z_m": -0.9588,
+      "floor_z_m": -1.3253,
+      "position_floor_aligned": [
+        -0.505,
+        -0.183,
+        0.366
+      ],
+      "reach_zone": "Low (0.0-0.5m)",
+      "parent_object": {
+        "annot_id": "02c5fb08-9d63-4b5d-990c-959aacacef35",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "10kitchen",
+      "annot_id": "36122ed7-ac7f-4d86-a735-3f91e9883871",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 148,
+      "height_above_floor_m": 0.6353,
+      "height_min_m": 0.6183,
+      "height_max_m": 0.6484,
+      "height_span_m": 0.0301,
+      "raw_z_m": -0.69,
+      "floor_z_m": -1.3253,
+      "position_floor_aligned": [
+        -0.495,
+        -0.18,
+        0.635
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "02c5fb08-9d63-4b5d-990c-959aacacef35",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "10kitchen",
+      "annot_id": "597dde1f-aea5-4518-b956-5e7efdf7e831",
+      "label": "handle",
+      "category": "interactive_element",
+      "points": 268,
+      "height_above_floor_m": 0.6913,
+      "height_min_m": 0.6089,
+      "height_max_m": 0.7819,
+      "height_span_m": 0.173,
+      "raw_z_m": -0.634,
+      "floor_z_m": -1.3253,
+      "position_floor_aligned": [
+        0.171,
+        -1.161,
+        0.691
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "fb02e7db-ff70-4d40-9482-48d95be39b3a",
+        "label": "fridge",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "10kitchen",
+      "annot_id": "80d073d2-5781-4402-b256-80d645450614",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 159,
+      "height_above_floor_m": 0.7328,
+      "height_min_m": 0.6235,
+      "height_max_m": 0.8917,
+      "height_span_m": 0.2682,
+      "raw_z_m": -0.5925,
+      "floor_z_m": -1.3253,
+      "position_floor_aligned": [
+        -1.316,
+        0.835,
+        0.733
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "02c5fb08-9d63-4b5d-990c-959aacacef35",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "10kitchen",
+      "annot_id": "876f26c5-f7a6-434a-83c5-2c8258ac1098",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 90,
+      "height_above_floor_m": 0.7537,
+      "height_min_m": 0.7225,
+      "height_max_m": 0.7726,
+      "height_span_m": 0.0502,
+      "raw_z_m": -0.5716,
+      "floor_z_m": -1.3253,
+      "position_floor_aligned": [
+        -0.669,
+        0.1,
+        0.754
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "02c5fb08-9d63-4b5d-990c-959aacacef35",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "10kitchen",
+      "annot_id": "ba7544bc-fb6d-4820-91c5-2693261707ff",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 88,
+      "height_above_floor_m": 0.7603,
+      "height_min_m": 0.7447,
+      "height_max_m": 0.7719,
+      "height_span_m": 0.0272,
+      "raw_z_m": -0.5651,
+      "floor_z_m": -1.3253,
+      "position_floor_aligned": [
+        0.022,
+        -0.99,
+        0.76
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "afb1db89-5b81-4e52-8c12-87bd59f636e0",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "10kitchen",
+      "annot_id": "f7a5dadd-a40a-43c0-bec2-a19a56e9e224",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 153,
+      "height_above_floor_m": 0.7619,
+      "height_min_m": 0.7384,
+      "height_max_m": 0.7834,
+      "height_span_m": 0.045,
+      "raw_z_m": -0.5634,
+      "floor_z_m": -1.3253,
+      "position_floor_aligned": [
+        -0.504,
+        -0.186,
+        0.762
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "02c5fb08-9d63-4b5d-990c-959aacacef35",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "10kitchen",
+      "annot_id": "fe2277f3-89db-4127-978d-f3eb812c3671",
+      "label": "handle",
+      "category": "interactive_element",
+      "points": 1142,
+      "height_above_floor_m": 0.7806,
+      "height_min_m": 0.7533,
+      "height_max_m": 0.7886,
+      "height_span_m": 0.0353,
+      "raw_z_m": -0.5447,
+      "floor_z_m": -1.3253,
+      "position_floor_aligned": [
+        -0.188,
+        -0.626,
+        0.781
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "ae2be5ef-53e8-4eba-b082-ab2a3d0d5d2c",
+        "label": "oven",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "10kitchen",
+      "annot_id": "95833d6f-1bb1-4280-be1d-74722a30e18b",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 118,
+      "height_above_floor_m": 0.852,
+      "height_min_m": 0.8348,
+      "height_max_m": 0.8683,
+      "height_span_m": 0.0335,
+      "raw_z_m": -0.4733,
+      "floor_z_m": -1.3253,
+      "position_floor_aligned": [
+        -0.317,
+        -0.466,
+        0.852
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "ae2be5ef-53e8-4eba-b082-ab2a3d0d5d2c",
+        "label": "oven",
+        "interaction": "rotate to adjust the setting"
+      }
+    },
+    {
+      "scene_id": "10kitchen",
+      "annot_id": "464d32dd-ddcb-4ccf-b324-b76d06188f0d",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 187,
+      "height_above_floor_m": 0.8523,
+      "height_min_m": 0.8277,
+      "height_max_m": 0.8716,
+      "height_span_m": 0.0439,
+      "raw_z_m": -0.473,
+      "floor_z_m": -1.3253,
+      "position_floor_aligned": [
+        -0.149,
+        -0.739,
+        0.852
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "ae2be5ef-53e8-4eba-b082-ab2a3d0d5d2c",
+        "label": "oven",
+        "interaction": "rotate to adjust the setting"
+      }
+    },
+    {
+      "scene_id": "10kitchen",
+      "annot_id": "ce2eb948-76c2-4d23-8529-b7fe4417c6e8",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 129,
+      "height_above_floor_m": 0.8541,
+      "height_min_m": 0.833,
+      "height_max_m": 0.8716,
+      "height_span_m": 0.0386,
+      "raw_z_m": -0.4712,
+      "floor_z_m": -1.3253,
+      "position_floor_aligned": [
+        -0.26,
+        -0.558,
+        0.854
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "ae2be5ef-53e8-4eba-b082-ab2a3d0d5d2c",
+        "label": "oven",
+        "interaction": "rotate to adjust the setting"
+      }
+    },
+    {
+      "scene_id": "10kitchen",
+      "annot_id": "30d8f765-bba8-49dc-8c5c-0c8fa7c6dc68",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 131,
+      "height_above_floor_m": 0.8552,
+      "height_min_m": 0.8338,
+      "height_max_m": 0.8717,
+      "height_span_m": 0.0379,
+      "raw_z_m": -0.4701,
+      "floor_z_m": -1.3253,
+      "position_floor_aligned": [
+        -0.117,
+        -0.787,
+        0.855
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "ae2be5ef-53e8-4eba-b082-ab2a3d0d5d2c",
+        "label": "oven",
+        "interaction": "rotate to adjust the setting"
+      }
+    },
+    {
+      "scene_id": "10kitchen",
+      "annot_id": "01fbe19d-a02c-4541-a437-669aabe2e788",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 142,
+      "height_above_floor_m": 0.8552,
+      "height_min_m": 0.8347,
+      "height_max_m": 0.8713,
+      "height_span_m": 0.0366,
+      "raw_z_m": -0.4701,
+      "floor_z_m": -1.3253,
+      "position_floor_aligned": [
+        -0.289,
+        -0.513,
+        0.855
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "ae2be5ef-53e8-4eba-b082-ab2a3d0d5d2c",
+        "label": "oven",
+        "interaction": "rotate to adjust the setting"
+      }
+    },
+    {
+      "scene_id": "10kitchen",
+      "annot_id": "93d32795-244b-4413-bf44-c9247579d827",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 115,
+      "height_above_floor_m": 0.857,
+      "height_min_m": 0.8383,
+      "height_max_m": 0.8718,
+      "height_span_m": 0.0335,
+      "raw_z_m": -0.4683,
+      "floor_z_m": -1.3253,
+      "position_floor_aligned": [
+        -0.087,
+        -0.838,
+        0.857
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "ae2be5ef-53e8-4eba-b082-ab2a3d0d5d2c",
+        "label": "oven",
+        "interaction": "rotate to adjust the setting"
+      }
+    },
+    {
+      "scene_id": "10kitchen",
+      "annot_id": "ae3b0fc0-1e7b-4a8a-8b4c-c9e65af2cb7a",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 88,
+      "height_above_floor_m": 0.8856,
+      "height_min_m": 0.8693,
+      "height_max_m": 0.8977,
+      "height_span_m": 0.0284,
+      "raw_z_m": -0.4397,
+      "floor_z_m": -1.3253,
+      "position_floor_aligned": [
+        0.023,
+        -0.991,
+        0.886
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "afb1db89-5b81-4e52-8c12-87bd59f636e0",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "10kitchen",
+      "annot_id": "198a7f88-1288-4d83-a22e-79a5c92f5a41",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 75,
+      "height_above_floor_m": 0.8877,
+      "height_min_m": 0.8783,
+      "height_max_m": 0.8982,
+      "height_span_m": 0.0199,
+      "raw_z_m": -0.4376,
+      "floor_z_m": -1.3253,
+      "position_floor_aligned": [
+        -0.485,
+        -0.181,
+        0.888
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "02c5fb08-9d63-4b5d-990c-959aacacef35",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "10kitchen",
+      "annot_id": "66046660-bad5-43a3-b2b2-fcdb46602ddf",
+      "label": "electric outlet",
+      "category": "interactive_element",
+      "points": 752,
+      "height_above_floor_m": 1.0924,
+      "height_min_m": 1.0382,
+      "height_max_m": 1.1484,
+      "height_span_m": 0.1101,
+      "raw_z_m": -0.2329,
+      "floor_z_m": -1.3253,
+      "position_floor_aligned": [
+        -0.965,
+        -0.545,
+        1.092
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": null,
+        "label": "unconnected",
+        "interaction": null
+      }
+    },
+    {
+      "scene_id": "10kitchen",
+      "annot_id": "23590db4-43f4-4890-ab90-d674ce8af2f4",
+      "label": "faucet / handle",
+      "category": "interactive_element",
+      "points": 472,
+      "height_above_floor_m": 1.0953,
+      "height_min_m": 1.0481,
+      "height_max_m": 1.1419,
+      "height_span_m": 0.0938,
+      "raw_z_m": -0.23,
+      "floor_z_m": -1.3253,
+      "position_floor_aligned": [
+        -1.241,
+        0.082,
+        1.095
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "b21b3308-fd5f-4268-a397-a507c39b5f3a",
+        "label": "kitchen sink",
+        "interaction": "control the water flow"
+      }
+    },
+    {
+      "scene_id": "10kitchen",
+      "annot_id": "3db9ce2d-de5a-490d-a4bb-689a7205f7fa",
+      "label": "handle",
+      "category": "interactive_element",
+      "points": 246,
+      "height_above_floor_m": 1.1204,
+      "height_min_m": 1.1103,
+      "height_max_m": 1.1313,
+      "height_span_m": 0.021,
+      "raw_z_m": -0.205,
+      "floor_z_m": -1.3253,
+      "position_floor_aligned": [
+        -0.106,
+        0.947,
+        1.12
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "66a7fdb1-99ff-4b62-8c8f-9f2870c27db1",
+        "label": "coffee maker",
+        "interaction": "operate or adjust the flow or setting"
+      }
+    },
+    {
+      "scene_id": "10kitchen",
+      "annot_id": "3085c5d2-b1ed-4a60-a8cb-20a150923be1",
+      "label": "handle",
+      "category": "interactive_element",
+      "points": 297,
+      "height_above_floor_m": 1.194,
+      "height_min_m": 1.0988,
+      "height_max_m": 1.3025,
+      "height_span_m": 0.2037,
+      "raw_z_m": -0.1313,
+      "floor_z_m": -1.3253,
+      "position_floor_aligned": [
+        0.165,
+        -1.162,
+        1.194
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "fb02e7db-ff70-4d40-9482-48d95be39b3a",
+        "label": "fridge",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "10kitchen",
+      "annot_id": "efdc6ed9-f678-4d69-ae41-ab9ae6c7d441",
+      "label": "electric outlet",
+      "category": "interactive_element",
+      "points": 681,
+      "height_above_floor_m": 1.2188,
+      "height_min_m": 1.1576,
+      "height_max_m": 1.2688,
+      "height_span_m": 0.1112,
+      "raw_z_m": -0.1066,
+      "floor_z_m": -1.3253,
+      "position_floor_aligned": [
+        -0.133,
+        1.254,
+        1.219
+      ],
+      "reach_zone": "High (>1.2m)",
+      "parent_object": {
+        "annot_id": "66a7fdb1-99ff-4b62-8c8f-9f2870c27db1",
+        "label": "coffee maker",
+        "interaction": "provide power"
+      }
+    },
+    {
+      "scene_id": "11bedroom",
+      "annot_id": "fabac5d1-d4b8-4bbf-8af4-a1f6b5510fff",
+      "label": "switch",
+      "category": "interactive_element",
+      "points": 94,
+      "height_above_floor_m": 0.3181,
+      "height_min_m": 0.2901,
+      "height_max_m": 0.3447,
+      "height_span_m": 0.0546,
+      "raw_z_m": -0.927,
+      "floor_z_m": -1.2451,
+      "position_floor_aligned": [
+        -0.251,
+        2.188,
+        0.318
+      ],
+      "reach_zone": "Low (0.0-0.5m)",
+      "parent_object": {
+        "annot_id": "7c2e7afd-0278-4a23-974a-8b82b1b73e29",
+        "label": "lamp",
+        "interaction": "control, turn on or turn off"
+      }
+    },
+    {
+      "scene_id": "11bedroom",
+      "annot_id": "4f273bf1-ea5e-4768-a4df-979a1e2d98e1",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 23,
+      "height_above_floor_m": 0.6948,
+      "height_min_m": 0.6892,
+      "height_max_m": 0.6998,
+      "height_span_m": 0.0106,
+      "raw_z_m": -0.5503,
+      "floor_z_m": -1.2451,
+      "position_floor_aligned": [
+        -0.482,
+        -1.789,
+        0.695
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "e461d8a7-bf31-487b-a848-1185950df166",
+        "label": "desk drawer",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "11bedroom",
+      "annot_id": "b1a5ee8d-b76e-4a7e-8077-0c6d9780e393",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 24,
+      "height_above_floor_m": 0.6948,
+      "height_min_m": 0.6901,
+      "height_max_m": 0.7,
+      "height_span_m": 0.0099,
+      "raw_z_m": -0.5503,
+      "floor_z_m": -1.2451,
+      "position_floor_aligned": [
+        -0.217,
+        -1.806,
+        0.695
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "e461d8a7-bf31-487b-a848-1185950df166",
+        "label": "desk drawer",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "11bedroom",
+      "annot_id": "e42d78c4-a043-4003-b8ae-b8fdf38ed44b",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 10,
+      "height_above_floor_m": 0.6965,
+      "height_min_m": 0.69,
+      "height_max_m": 0.7001,
+      "height_span_m": 0.0101,
+      "raw_z_m": -0.5486,
+      "floor_z_m": -1.2451,
+      "position_floor_aligned": [
+        0.042,
+        -1.823,
+        0.696
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "e461d8a7-bf31-487b-a848-1185950df166",
+        "label": "desk drawer",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "11bedroom",
+      "annot_id": "fce0c440-a157-4e06-87a7-5c5ebf416f0d",
+      "label": "power strip",
+      "category": "interactive_element",
+      "points": 361,
+      "height_above_floor_m": 0.7598,
+      "height_min_m": 0.7271,
+      "height_max_m": 0.8061,
+      "height_span_m": 0.079,
+      "raw_z_m": -0.4853,
+      "floor_z_m": -1.2451,
+      "position_floor_aligned": [
+        -0.585,
+        -2.128,
+        0.76
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "9c76fe85-542e-46d1-885f-422eff1fb67f",
+        "label": "lamp",
+        "interaction": "provide power"
+      }
+    },
+    {
+      "scene_id": "11bedroom",
+      "annot_id": "91d1304c-e3b0-49f6-9ac0-9ad498561b96",
+      "label": "handle",
+      "category": "interactive_element",
+      "points": 166,
+      "height_above_floor_m": 1.0078,
+      "height_min_m": 0.98,
+      "height_max_m": 1.0206,
+      "height_span_m": 0.0407,
+      "raw_z_m": -0.2373,
+      "floor_z_m": -1.2451,
+      "position_floor_aligned": [
+        1.355,
+        -1.635,
+        1.008
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "ab079220-e682-4a0c-9c34-3022fa6ffe20",
+        "label": "door",
+        "interaction": "rotate to open or close"
+      }
+    },
+    {
+      "scene_id": "11bedroom",
+      "annot_id": "edad5214-8d75-4e4f-a1c9-12bf78169766",
+      "label": "handle",
+      "category": "interactive_element",
+      "points": 500,
+      "height_above_floor_m": 1.1425,
+      "height_min_m": 1.0605,
+      "height_max_m": 1.1992,
+      "height_span_m": 0.1387,
+      "raw_z_m": -0.1026,
+      "floor_z_m": -1.2451,
+      "position_floor_aligned": [
+        -0.943,
+        -0.51,
+        1.143
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "5999f46d-0997-42df-8f4a-c2ca938e6511",
+        "label": "window",
+        "interaction": "rotate to open or close"
+      }
+    },
+    {
+      "scene_id": "11bedroom",
+      "annot_id": "8f35fd8b-eb78-4457-b57c-b4c5a3f1883c",
+      "label": "electric outlet",
+      "category": "interactive_element",
+      "points": 518,
+      "height_above_floor_m": 1.1462,
+      "height_min_m": 1.0868,
+      "height_max_m": 1.1971,
+      "height_span_m": 0.1103,
+      "raw_z_m": -0.0989,
+      "floor_z_m": -1.2451,
+      "position_floor_aligned": [
+        1.404,
+        -1.393,
+        1.146
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "57cb09de-1c94-4f06-8042-6f0415650c2d",
+        "label": "lamp",
+        "interaction": "provide power"
+      }
+    },
+    {
+      "scene_id": "12kitchen",
+      "annot_id": "387fa922-f379-4aef-a653-315a5a0e89b0",
+      "label": "handle",
+      "category": "interactive_element",
+      "points": 785,
+      "height_above_floor_m": 0.2436,
+      "height_min_m": 0.2074,
+      "height_max_m": 0.2641,
+      "height_span_m": 0.0567,
+      "raw_z_m": -0.6848,
+      "floor_z_m": -0.9284,
+      "position_floor_aligned": [
+        -0.514,
+        0.118,
+        0.244
+      ],
+      "reach_zone": "Low (0.0-0.5m)",
+      "parent_object": {
+        "annot_id": "f339a688-4f83-4acf-8471-e90228c4a07e",
+        "label": "oven",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "12kitchen",
+      "annot_id": "066ffbee-c6fd-49fd-b779-e2188ca69c22",
+      "label": "handle / knob",
+      "category": "interactive_element",
+      "points": 248,
+      "height_above_floor_m": 0.4427,
+      "height_min_m": 0.4286,
+      "height_max_m": 0.4486,
+      "height_span_m": 0.02,
+      "raw_z_m": -0.4858,
+      "floor_z_m": -0.9284,
+      "position_floor_aligned": [
+        -0.14,
+        0.456,
+        0.443
+      ],
+      "reach_zone": "Low (0.0-0.5m)",
+      "parent_object": {
+        "annot_id": "8dda16d0-4f22-468d-b7bc-2b4f7c8ef835",
+        "label": "kitchen cabinet / kitchen counter",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "12kitchen",
+      "annot_id": "8350b046-97b5-4f34-8a98-8672910d40ac",
+      "label": "handle / knob",
+      "category": "interactive_element",
+      "points": 415,
+      "height_above_floor_m": 0.7006,
+      "height_min_m": 0.6864,
+      "height_max_m": 0.7094,
+      "height_span_m": 0.023,
+      "raw_z_m": -0.2279,
+      "floor_z_m": -0.9284,
+      "position_floor_aligned": [
+        -0.149,
+        0.453,
+        0.701
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "8dda16d0-4f22-468d-b7bc-2b4f7c8ef835",
+        "label": "kitchen cabinet / kitchen counter",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "12kitchen",
+      "annot_id": "285ac4e9-7741-4790-837e-1dbd4393055c",
+      "label": "handle / knob",
+      "category": "interactive_element",
+      "points": 362,
+      "height_above_floor_m": 0.7015,
+      "height_min_m": 0.6864,
+      "height_max_m": 0.7088,
+      "height_span_m": 0.0224,
+      "raw_z_m": -0.2269,
+      "floor_z_m": -0.9284,
+      "position_floor_aligned": [
+        -0.874,
+        -0.162,
+        0.701
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "1df7ab42-bac0-4282-9bef-f9fbc46cc5f0",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "12kitchen",
+      "annot_id": "2bf3ad66-f6a8-49ec-adfa-72e62c0a9f0f",
+      "label": "handle / knob",
+      "category": "interactive_element",
+      "points": 311,
+      "height_above_floor_m": 0.7032,
+      "height_min_m": 0.6864,
+      "height_max_m": 0.709,
+      "height_span_m": 0.0225,
+      "raw_z_m": -0.2252,
+      "floor_z_m": -0.9284,
+      "position_floor_aligned": [
+        0.235,
+        0.767,
+        0.703
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "8dda16d0-4f22-468d-b7bc-2b4f7c8ef835",
+        "label": "kitchen cabinet / kitchen counter",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "12kitchen",
+      "annot_id": "65988f77-2094-4552-b639-44056e154067",
+      "label": "handle",
+      "category": "interactive_element",
+      "points": 928,
+      "height_above_floor_m": 0.7267,
+      "height_min_m": 0.7101,
+      "height_max_m": 0.7387,
+      "height_span_m": 0.0286,
+      "raw_z_m": -0.2018,
+      "floor_z_m": -0.9284,
+      "position_floor_aligned": [
+        -0.519,
+        0.11,
+        0.727
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "f339a688-4f83-4acf-8471-e90228c4a07e",
+        "label": "oven",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "12kitchen",
+      "annot_id": "cd483b3d-7757-4fe3-b085-82f22888db42",
+      "label": "button",
+      "category": "interactive_element",
+      "points": 40,
+      "height_above_floor_m": 0.7829,
+      "height_min_m": 0.7743,
+      "height_max_m": 0.7892,
+      "height_span_m": 0.0149,
+      "raw_z_m": -0.1455,
+      "floor_z_m": -0.9284,
+      "position_floor_aligned": [
+        -0.574,
+        0.12,
+        0.783
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "f339a688-4f83-4acf-8471-e90228c4a07e",
+        "label": "oven",
+        "interaction": "press to open or close, or to adjust the setting"
+      }
+    },
+    {
+      "scene_id": "12kitchen",
+      "annot_id": "9a3cc6e0-fb3c-4207-8618-4ffcd995eec3",
+      "label": "button",
+      "category": "interactive_element",
+      "points": 43,
+      "height_above_floor_m": 0.7835,
+      "height_min_m": 0.7691,
+      "height_max_m": 0.7924,
+      "height_span_m": 0.0233,
+      "raw_z_m": -0.1449,
+      "floor_z_m": -0.9284,
+      "position_floor_aligned": [
+        -0.513,
+        0.172,
+        0.784
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "f339a688-4f83-4acf-8471-e90228c4a07e",
+        "label": "oven",
+        "interaction": "press to open or close, or to adjust the setting"
+      }
+    },
+    {
+      "scene_id": "12kitchen",
+      "annot_id": "b1743fca-c222-40a4-bd73-027725181331",
+      "label": "handle / knob",
+      "category": "interactive_element",
+      "points": 438,
+      "height_above_floor_m": 0.8307,
+      "height_min_m": 0.8199,
+      "height_max_m": 0.8394,
+      "height_span_m": 0.0195,
+      "raw_z_m": -0.0978,
+      "floor_z_m": -0.9284,
+      "position_floor_aligned": [
+        -0.15,
+        0.449,
+        0.831
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "8dda16d0-4f22-468d-b7bc-2b4f7c8ef835",
+        "label": "kitchen cabinet / kitchen counter",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "12kitchen",
+      "annot_id": "4ebc38b0-9d3d-41e2-8fdb-8dc3f1cabd9b",
+      "label": "handle / knob",
+      "category": "interactive_element",
+      "points": 379,
+      "height_above_floor_m": 0.8325,
+      "height_min_m": 0.8194,
+      "height_max_m": 0.8401,
+      "height_span_m": 0.0207,
+      "raw_z_m": -0.096,
+      "floor_z_m": -0.9284,
+      "position_floor_aligned": [
+        -0.867,
+        -0.158,
+        0.832
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "1df7ab42-bac0-4282-9bef-f9fbc46cc5f0",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "12kitchen",
+      "annot_id": "b7f1f433-6281-4fa0-a06b-4a11cd870181",
+      "label": "handle / knob",
+      "category": "interactive_element",
+      "points": 140,
+      "height_above_floor_m": 0.8344,
+      "height_min_m": 0.8164,
+      "height_max_m": 0.8424,
+      "height_span_m": 0.026,
+      "raw_z_m": -0.094,
+      "floor_z_m": -0.9284,
+      "position_floor_aligned": [
+        0.626,
+        1.103,
+        0.834
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "8dda16d0-4f22-468d-b7bc-2b4f7c8ef835",
+        "label": "kitchen cabinet / kitchen counter",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "12kitchen",
+      "annot_id": "71b4b344-2fef-47c5-9861-02bf4845c5ed",
+      "label": "handle",
+      "category": "interactive_element",
+      "points": 117,
+      "height_above_floor_m": 0.9708,
+      "height_min_m": 0.9639,
+      "height_max_m": 0.9791,
+      "height_span_m": 0.0151,
+      "raw_z_m": 0.0423,
+      "floor_z_m": -0.9284,
+      "position_floor_aligned": [
+        -1.098,
+        -1.106,
+        0.971
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "f9af0467-9ff2-4ce3-bedf-058d842c13c4",
+        "label": "door",
+        "interaction": "rotate to open or close"
+      }
+    },
+    {
+      "scene_id": "12kitchen",
+      "annot_id": "bbe67ebe-dd99-4c23-b307-184f074cc587",
+      "label": "handle / knob",
+      "category": "interactive_element",
+      "points": 291,
+      "height_above_floor_m": 0.9842,
+      "height_min_m": 0.9694,
+      "height_max_m": 0.9929,
+      "height_span_m": 0.0235,
+      "raw_z_m": 0.0558,
+      "floor_z_m": -0.9284,
+      "position_floor_aligned": [
+        -1.069,
+        -0.358,
+        0.984
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "1d98b33b-fbed-463f-8a31-4a7e2ba9d6b4",
+        "label": "kitchen cabinet / fridge",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "12kitchen",
+      "annot_id": "77d585fc-ed79-4562-a479-f174a8b19943",
+      "label": "faucet / handle",
+      "category": "interactive_element",
+      "points": 707,
+      "height_above_floor_m": 1.015,
+      "height_min_m": 0.9294,
+      "height_max_m": 1.1374,
+      "height_span_m": 0.208,
+      "raw_z_m": 0.0865,
+      "floor_z_m": -0.9284,
+      "position_floor_aligned": [
+        -0.041,
+        1.169,
+        1.015
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "00becc68-446f-49ad-bd09-71f582ac55b3",
+        "label": "kitchen sink",
+        "interaction": "control the water flow"
+      }
+    },
+    {
+      "scene_id": "12kitchen",
+      "annot_id": "745544f4-a8ca-4bbe-aed8-986368200c4a",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 198,
+      "height_above_floor_m": 1.0474,
+      "height_min_m": 1.0245,
+      "height_max_m": 1.0677,
+      "height_span_m": 0.0432,
+      "raw_z_m": 0.119,
+      "floor_z_m": -0.9284,
+      "position_floor_aligned": [
+        1.309,
+        0.476,
+        1.047
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "fb600ca1-8e82-47e0-888a-408fab813991",
+        "label": "radiator",
+        "interaction": "rotate to adjust the temperature"
+      }
+    },
+    {
+      "scene_id": "12kitchen",
+      "annot_id": "51941491-2128-4dc2-866d-b701a4d3ad70",
+      "label": "switch panel / electric outlet",
+      "category": "interactive_element",
+      "points": 1119,
+      "height_above_floor_m": 1.1711,
+      "height_min_m": 1.0909,
+      "height_max_m": 1.2504,
+      "height_span_m": 0.1595,
+      "raw_z_m": 0.2426,
+      "floor_z_m": -0.9284,
+      "position_floor_aligned": [
+        -1.328,
+        -0.966,
+        1.171
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "6726a0a4-0e9a-4bfc-b365-60aeb0118c62",
+        "label": "ceiling light fixture",
+        "interaction": "control, turn on or turn off"
+      }
+    },
+    {
+      "scene_id": "12kitchen",
+      "annot_id": "9cba6a08-d29f-4d09-96dd-e2e0738607ea",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 141,
+      "height_above_floor_m": 1.2521,
+      "height_min_m": 1.2385,
+      "height_max_m": 1.273,
+      "height_span_m": 0.0345,
+      "raw_z_m": 0.3236,
+      "floor_z_m": -0.9284,
+      "position_floor_aligned": [
+        0.176,
+        -0.495,
+        1.252
+      ],
+      "reach_zone": "High (>1.2m)",
+      "parent_object": {
+        "annot_id": "f2002623-802a-4206-82df-b7ce839aeb7f",
+        "label": "microwave oven",
+        "interaction": "rotate to open or close, or to adjust the setting, time and temperature"
+      }
+    },
+    {
+      "scene_id": "12kitchen",
+      "annot_id": "33c6800c-3e97-4b15-9801-8adbc7888ede",
+      "label": "handle",
+      "category": "interactive_element",
+      "points": 514,
+      "height_above_floor_m": 1.3293,
+      "height_min_m": 1.2194,
+      "height_max_m": 1.4404,
+      "height_span_m": 0.221,
+      "raw_z_m": 0.4008,
+      "floor_z_m": -0.9284,
+      "position_floor_aligned": [
+        0.207,
+        -0.447,
+        1.329
+      ],
+      "reach_zone": "High (>1.2m)",
+      "parent_object": {
+        "annot_id": "f2002623-802a-4206-82df-b7ce839aeb7f",
+        "label": "microwave oven",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "12kitchen",
+      "annot_id": "a827b5c6-e001-48c6-99d7-b980ae01cbf7",
+      "label": "handle / knob",
+      "category": "interactive_element",
+      "points": 294,
+      "height_above_floor_m": 1.4203,
+      "height_min_m": 1.4104,
+      "height_max_m": 1.4294,
+      "height_span_m": 0.019,
+      "raw_z_m": 0.4918,
+      "floor_z_m": -0.9284,
+      "position_floor_aligned": [
+        -0.086,
+        0.862,
+        1.42
+      ],
+      "reach_zone": "High (>1.2m)",
+      "parent_object": {
+        "annot_id": "76af3134-447f-42fa-80b0-db98f4dcf728",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "12kitchen",
+      "annot_id": "64f143d5-f7a3-4d49-bcb9-7decf7602efa",
+      "label": "handle / knob",
+      "category": "interactive_element",
+      "points": 429,
+      "height_above_floor_m": 1.4204,
+      "height_min_m": 1.4114,
+      "height_max_m": 1.4335,
+      "height_span_m": 0.0221,
+      "raw_z_m": 0.492,
+      "floor_z_m": -0.9284,
+      "position_floor_aligned": [
+        -1.09,
+        0.03,
+        1.42
+      ],
+      "reach_zone": "High (>1.2m)",
+      "parent_object": {
+        "annot_id": "76af3134-447f-42fa-80b0-db98f4dcf728",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "12kitchen",
+      "annot_id": "601ff2d9-10c2-404b-9d05-13cfc8ace799",
+      "label": "handle / knob",
+      "category": "interactive_element",
+      "points": 345,
+      "height_above_floor_m": 1.4222,
+      "height_min_m": 1.4134,
+      "height_max_m": 1.4334,
+      "height_span_m": 0.02,
+      "raw_z_m": 0.4937,
+      "floor_z_m": -0.9284,
+      "position_floor_aligned": [
+        -0.267,
+        0.713,
+        1.422
+      ],
+      "reach_zone": "High (>1.2m)",
+      "parent_object": {
+        "annot_id": "76af3134-447f-42fa-80b0-db98f4dcf728",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "12kitchen",
+      "annot_id": "20d140ce-61fb-4d32-aed8-b62b2c4bb575",
+      "label": "button",
+      "category": "interactive_element",
+      "points": 192,
+      "height_above_floor_m": 1.4991,
+      "height_min_m": 1.4882,
+      "height_max_m": 1.5164,
+      "height_span_m": 0.0282,
+      "raw_z_m": 0.5706,
+      "floor_z_m": -0.9284,
+      "position_floor_aligned": [
+        -0.726,
+        0.37,
+        1.499
+      ],
+      "reach_zone": "High (>1.2m)",
+      "parent_object": {
+        "annot_id": "8ee38466-9054-4600-a7f1-04a198caaf2b",
+        "label": "exhaust hood",
+        "interaction": "press to open or close, or to adjust the wind flow"
+      }
+    },
+    {
+      "scene_id": "12kitchen",
+      "annot_id": "436aac63-53a7-4c92-b295-e9c0c4b46f2e",
+      "label": "handle",
+      "category": "interactive_element",
+      "points": 160,
+      "height_above_floor_m": 1.5069,
+      "height_min_m": 1.4438,
+      "height_max_m": 1.5678,
+      "height_span_m": 0.124,
+      "raw_z_m": 0.5784,
+      "floor_z_m": -0.9284,
+      "position_floor_aligned": [
+        0.996,
+        1.215,
+        1.507
+      ],
+      "reach_zone": "High (>1.2m)",
+      "parent_object": {
+        "annot_id": "910dfa70-00fe-49b9-8465-d1e6d2ea70f3",
+        "label": "window",
+        "interaction": "rotate to open or close"
+      }
+    },
+    {
+      "scene_id": "12kitchen",
+      "annot_id": "f1e9a6f8-021a-4944-8a46-e0274b843644",
+      "label": "handle / knob",
+      "category": "interactive_element",
+      "points": 331,
+      "height_above_floor_m": 1.5504,
+      "height_min_m": 1.5414,
+      "height_max_m": 1.568,
+      "height_span_m": 0.0266,
+      "raw_z_m": 0.622,
+      "floor_z_m": -0.9284,
+      "position_floor_aligned": [
+        -1.073,
+        -0.355,
+        1.55
+      ],
+      "reach_zone": "High (>1.2m)",
+      "parent_object": {
+        "annot_id": "1d98b33b-fbed-463f-8a31-4a7e2ba9d6b4",
+        "label": "kitchen cabinet / fridge",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "13bathroom",
+      "annot_id": "76a46ef3-4bf2-4ac5-a503-1ff4b14bcd15",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 205,
+      "height_above_floor_m": 0.0226,
+      "height_min_m": 0.0152,
+      "height_max_m": 0.0414,
+      "height_span_m": 0.0262,
+      "raw_z_m": -1.2557,
+      "floor_z_m": -1.2784,
+      "position_floor_aligned": [
+        -0.401,
+        -0.256,
+        0.023
+      ],
+      "reach_zone": "Low (0.0-0.5m)",
+      "parent_object": {
+        "annot_id": "98c0d73f-1043-4695-909e-c3f552d8aaeb",
+        "label": "trashcan",
+        "interaction": "push or press to open"
+      }
+    },
+    {
+      "scene_id": "13bathroom",
+      "annot_id": "7cbd6558-4aa2-43f3-9722-ea8ec5600d1f",
+      "label": "button / knob",
+      "category": "interactive_element",
+      "points": 51,
+      "height_above_floor_m": 0.1343,
+      "height_min_m": 0.1304,
+      "height_max_m": 0.1366,
+      "height_span_m": 0.0063,
+      "raw_z_m": -1.1441,
+      "floor_z_m": -1.2784,
+      "position_floor_aligned": [
+        -0.345,
+        1.307,
+        0.134
+      ],
+      "reach_zone": "Low (0.0-0.5m)",
+      "parent_object": {
+        "annot_id": "fe4e7b9d-ad1d-456d-9f3e-8d3446714286",
+        "label": "bathtub",
+        "interaction": "press or rotate to control the drain water flow"
+      }
+    },
+    {
+      "scene_id": "13bathroom",
+      "annot_id": "2bcc8f71-864f-4c69-9cd4-e0f81574f6ae",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 63,
+      "height_above_floor_m": 0.4309,
+      "height_min_m": 0.4164,
+      "height_max_m": 0.4436,
+      "height_span_m": 0.0272,
+      "raw_z_m": -0.8474,
+      "floor_z_m": -1.2784,
+      "position_floor_aligned": [
+        0.746,
+        -0.098,
+        0.431
+      ],
+      "reach_zone": "Low (0.0-0.5m)",
+      "parent_object": {
+        "annot_id": "dccb9165-7e18-4ee4-a30c-ba295b251e95",
+        "label": "bathroom vanity",
+        "interaction": "pull to open or close a cabinet or drawer"
+      }
+    },
+    {
+      "scene_id": "13bathroom",
+      "annot_id": "1c887c15-77fb-48cd-b199-648bcb058098",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 87,
+      "height_above_floor_m": 0.5517,
+      "height_min_m": 0.5353,
+      "height_max_m": 0.5642,
+      "height_span_m": 0.0289,
+      "raw_z_m": -0.7266,
+      "floor_z_m": -1.2784,
+      "position_floor_aligned": [
+        0.75,
+        -0.1,
+        0.552
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "dccb9165-7e18-4ee4-a30c-ba295b251e95",
+        "label": "bathroom vanity",
+        "interaction": "pull to open or close a cabinet or drawer"
+      }
+    },
+    {
+      "scene_id": "13bathroom",
+      "annot_id": "0561874e-2fc3-4af3-84af-ac11b6f11288",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 82,
+      "height_above_floor_m": 0.6655,
+      "height_min_m": 0.6517,
+      "height_max_m": 0.6796,
+      "height_span_m": 0.0279,
+      "raw_z_m": -0.6129,
+      "floor_z_m": -1.2784,
+      "position_floor_aligned": [
+        0.384,
+        0.23,
+        0.665
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "dccb9165-7e18-4ee4-a30c-ba295b251e95",
+        "label": "bathroom vanity",
+        "interaction": "pull to open or close a cabinet or drawer"
+      }
+    },
+    {
+      "scene_id": "13bathroom",
+      "annot_id": "516c5c1d-8ba0-4284-9005-b730f5884f29",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 85,
+      "height_above_floor_m": 0.6678,
+      "height_min_m": 0.6524,
+      "height_max_m": 0.6834,
+      "height_span_m": 0.031,
+      "raw_z_m": -0.6105,
+      "floor_z_m": -1.2784,
+      "position_floor_aligned": [
+        0.448,
+        0.172,
+        0.668
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "dccb9165-7e18-4ee4-a30c-ba295b251e95",
+        "label": "bathroom vanity",
+        "interaction": "pull to open or close a cabinet or drawer"
+      }
+    },
+    {
+      "scene_id": "13bathroom",
+      "annot_id": "90da83c0-b6b7-4054-a957-70250023ead7",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 64,
+      "height_above_floor_m": 0.6696,
+      "height_min_m": 0.6544,
+      "height_max_m": 0.6838,
+      "height_span_m": 0.0294,
+      "raw_z_m": -0.6088,
+      "floor_z_m": -1.2784,
+      "position_floor_aligned": [
+        0.754,
+        -0.105,
+        0.67
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "dccb9165-7e18-4ee4-a30c-ba295b251e95",
+        "label": "bathroom vanity",
+        "interaction": "pull to open or close a cabinet or drawer"
+      }
+    },
+    {
+      "scene_id": "13bathroom",
+      "annot_id": "910a7e36-8adb-472d-adb5-18e25f8e9a2e",
+      "label": "knob / handle / faucet",
+      "category": "interactive_element",
+      "points": 309,
+      "height_above_floor_m": 0.6703,
+      "height_min_m": 0.5734,
+      "height_max_m": 0.7234,
+      "height_span_m": 0.15,
+      "raw_z_m": -0.608,
+      "floor_z_m": -1.2784,
+      "position_floor_aligned": [
+        -0.424,
+        1.556,
+        0.67
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "fe4e7b9d-ad1d-456d-9f3e-8d3446714286",
+        "label": "bathtub",
+        "interaction": "control the water flow"
+      }
+    },
+    {
+      "scene_id": "13bathroom",
+      "annot_id": "f934cad2-9e21-45b3-8ae0-3656a7b8cd7e",
+      "label": "button",
+      "category": "interactive_element",
+      "points": 881,
+      "height_above_floor_m": 0.8606,
+      "height_min_m": 0.8504,
+      "height_max_m": 0.8666,
+      "height_span_m": 0.0162,
+      "raw_z_m": -0.4177,
+      "floor_z_m": -1.2784,
+      "position_floor_aligned": [
+        0.259,
+        0.956,
+        0.861
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "9f3f7df5-4751-4f24-bd19-9e08225640ad",
+        "label": "toilet",
+        "interaction": "press to flush"
+      }
+    },
+    {
+      "scene_id": "13bathroom",
+      "annot_id": "bbf7d4a8-104d-4b26-a182-a4089c8e17eb",
+      "label": "faucet / handle",
+      "category": "interactive_element",
+      "points": 676,
+      "height_above_floor_m": 0.9166,
+      "height_min_m": 0.8537,
+      "height_max_m": 0.9784,
+      "height_span_m": 0.1246,
+      "raw_z_m": -0.3618,
+      "floor_z_m": -1.2784,
+      "position_floor_aligned": [
+        0.722,
+        0.548,
+        0.917
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "4490a892-2e27-46ee-b20b-0402036b96db",
+        "label": "bathroom sink",
+        "interaction": "control the water flow"
+      }
+    },
+    {
+      "scene_id": "13bathroom",
+      "annot_id": "e4802b30-56ee-4dc4-a983-026ea7cc3319",
+      "label": "handle",
+      "category": "interactive_element",
+      "points": 116,
+      "height_above_floor_m": 0.9817,
+      "height_min_m": 0.9709,
+      "height_max_m": 0.9921,
+      "height_span_m": 0.0212,
+      "raw_z_m": -0.2967,
+      "floor_z_m": -1.2784,
+      "position_floor_aligned": [
+        1.142,
+        -1.058,
+        0.982
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "39b09ac3-f4af-4f26-904a-86c59397ed06",
+        "label": "door",
+        "interaction": "rotate to open or close"
+      }
+    },
+    {
+      "scene_id": "13bathroom",
+      "annot_id": "28c908cc-bbeb-4275-b2e0-feed91f0544a",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 348,
+      "height_above_floor_m": 1.028,
+      "height_min_m": 0.9604,
+      "height_max_m": 1.0618,
+      "height_span_m": 0.1014,
+      "raw_z_m": -0.2504,
+      "floor_z_m": -1.2784,
+      "position_floor_aligned": [
+        1.696,
+        -0.378,
+        1.028
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "b3a9f35c-5404-4091-909c-4dd52ad842bf",
+        "label": "radiator",
+        "interaction": "rotate to adjust the temperature"
+      }
+    },
+    {
+      "scene_id": "13bathroom",
+      "annot_id": "4e146c73-7662-41a5-b5de-c82a48032d32",
+      "label": "switch panel / electric outlet",
+      "category": "interactive_element",
+      "points": 887,
+      "height_above_floor_m": 1.1452,
+      "height_min_m": 1.0791,
+      "height_max_m": 1.2202,
+      "height_span_m": 0.1412,
+      "raw_z_m": -0.1332,
+      "floor_z_m": -1.2784,
+      "position_floor_aligned": [
+        1.351,
+        -0.928,
+        1.145
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "01ff20e7-40e8-4efe-9a92-281e1dd19f96",
+        "label": "light fixture",
+        "interaction": "control, turn on or turn off"
+      }
+    },
+    {
+      "scene_id": "13bathroom",
+      "annot_id": "d6f87229-5547-49f7-9716-9a4075c868db",
+      "label": "handle",
+      "category": "interactive_element",
+      "points": 168,
+      "height_above_floor_m": 1.5887,
+      "height_min_m": 1.542,
+      "height_max_m": 1.6634,
+      "height_span_m": 0.1214,
+      "raw_z_m": 0.3103,
+      "floor_z_m": -1.2784,
+      "position_floor_aligned": [
+        -1.138,
+        0.958,
+        1.589
+      ],
+      "reach_zone": "High (>1.2m)",
+      "parent_object": {
+        "annot_id": "3ddd9d01-a30e-433e-bcea-6a950151a205",
+        "label": "window",
+        "interaction": "rotate to open or close"
+      }
+    },
+    {
+      "scene_id": "1bathroom",
+      "annot_id": "59fee29a-737e-44d3-b6e6-6d1b511c7792",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 51,
+      "height_above_floor_m": 0.1886,
+      "height_min_m": 0.1857,
+      "height_max_m": 0.2043,
+      "height_span_m": 0.0186,
+      "raw_z_m": -1.1174,
+      "floor_z_m": -1.306,
+      "position_floor_aligned": [
+        -0.667,
+        0.966,
+        0.189
+      ],
+      "reach_zone": "Low (0.0-0.5m)",
+      "parent_object": {
+        "annot_id": "fc7d4d40-b14b-40f6-aef2-ab95c48ceda1",
+        "label": "bathtub",
+        "interaction": "control the water flow"
+      }
+    },
+    {
+      "scene_id": "1bathroom",
+      "annot_id": "ece708eb-dfd2-46ee-8bc9-34da286cdcca",
+      "label": "faucet / handle",
+      "category": "interactive_element",
+      "points": 989,
+      "height_above_floor_m": 0.6515,
+      "height_min_m": 0.561,
+      "height_max_m": 0.783,
+      "height_span_m": 0.222,
+      "raw_z_m": -0.6545,
+      "floor_z_m": -1.306,
+      "position_floor_aligned": [
+        -0.614,
+        0.98,
+        0.651
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "fc7d4d40-b14b-40f6-aef2-ab95c48ceda1",
+        "label": "bathtub",
+        "interaction": "control the water flow"
+      }
+    },
+    {
+      "scene_id": "1bathroom",
+      "annot_id": "9b386711-0502-4c62-92bb-2eab67fb3bca",
+      "label": "button / knob",
+      "category": "interactive_element",
+      "points": 156,
+      "height_above_floor_m": 0.6797,
+      "height_min_m": 0.6749,
+      "height_max_m": 0.684,
+      "height_span_m": 0.009,
+      "raw_z_m": -0.6263,
+      "floor_z_m": -1.306,
+      "position_floor_aligned": [
+        0.892,
+        0.21,
+        0.68
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "07a85c08-4a23-4a4f-830b-697309388194",
+        "label": "bathroom sink",
+        "interaction": "press or rotate to control the water flow"
+      }
+    },
+    {
+      "scene_id": "1bathroom",
+      "annot_id": "10f5c4c4-45e4-403b-b121-7dd591f33acf",
+      "label": "handle",
+      "category": "interactive_element",
+      "points": 250,
+      "height_above_floor_m": 0.7403,
+      "height_min_m": 0.7288,
+      "height_max_m": 0.7465,
+      "height_span_m": 0.0177,
+      "raw_z_m": -0.5657,
+      "floor_z_m": -1.306,
+      "position_floor_aligned": [
+        0.369,
+        0.48,
+        0.74
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "eae369de-7a70-47d8-b5a4-873669f31946",
+        "label": "toilet",
+        "interaction": "press to flush"
+      }
+    },
+    {
+      "scene_id": "1bathroom",
+      "annot_id": "f9c2845c-a663-48e9-9d06-c473ddff9ad6",
+      "label": "faucet / handle",
+      "category": "interactive_element",
+      "points": 659,
+      "height_above_floor_m": 0.9081,
+      "height_min_m": 0.8254,
+      "height_max_m": 0.9693,
+      "height_span_m": 0.1438,
+      "raw_z_m": -0.3979,
+      "floor_z_m": -1.306,
+      "position_floor_aligned": [
+        0.907,
+        0.298,
+        0.908
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "07a85c08-4a23-4a4f-830b-697309388194",
+        "label": "bathroom sink",
+        "interaction": "control the water flow"
+      }
+    },
+    {
+      "scene_id": "1bathroom",
+      "annot_id": "c2d955e0-ce4b-4943-911d-e6bdc35595ef",
+      "label": "handle",
+      "category": "interactive_element",
+      "points": 635,
+      "height_above_floor_m": 0.9676,
+      "height_min_m": 0.9148,
+      "height_max_m": 1.005,
+      "height_span_m": 0.0902,
+      "raw_z_m": -0.3384,
+      "floor_z_m": -1.306,
+      "position_floor_aligned": [
+        1.611,
+        -0.16,
+        0.968
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "97113108-1306-4a29-a52e-f589d4318713",
+        "label": "door",
+        "interaction": "rotate to open or close"
+      }
+    },
+    {
+      "scene_id": "1bathroom",
+      "annot_id": "e10d94ca-5e83-48d2-a795-f7172acb8387",
+      "label": "switch panel",
+      "category": "interactive_element",
+      "points": 487,
+      "height_above_floor_m": 1.0259,
+      "height_min_m": 0.9787,
+      "height_max_m": 1.0703,
+      "height_span_m": 0.0916,
+      "raw_z_m": -0.2801,
+      "floor_z_m": -1.306,
+      "position_floor_aligned": [
+        1.722,
+        0.02,
+        1.026
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "204e2723-0354-4620-a820-09d344c5714e",
+        "label": "light fixture",
+        "interaction": "control, turn on or turn off"
+      }
+    },
+    {
+      "scene_id": "1bathroom",
+      "annot_id": "01deaf87-db55-4171-80f6-cbd57a84d310",
+      "label": "handle",
+      "category": "interactive_element",
+      "points": 535,
+      "height_above_floor_m": 1.4623,
+      "height_min_m": 1.4097,
+      "height_max_m": 1.5452,
+      "height_span_m": 0.1355,
+      "raw_z_m": 0.1562,
+      "floor_z_m": -1.306,
+      "position_floor_aligned": [
+        -1.197,
+        0.396,
+        1.462
+      ],
+      "reach_zone": "High (>1.2m)",
+      "parent_object": {
+        "annot_id": "86857788-1428-4173-bf06-14952875483d",
+        "label": "window",
+        "interaction": "rotate to open or close"
+      }
+    },
+    {
+      "scene_id": "1bathroom",
+      "annot_id": "0d6e2bb7-05a6-4de3-95d9-817c3e312c00",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 138,
+      "height_above_floor_m": 2.0986,
+      "height_min_m": 2.0861,
+      "height_max_m": 2.118,
+      "height_span_m": 0.0319,
+      "raw_z_m": 0.7926,
+      "floor_z_m": -1.306,
+      "position_floor_aligned": [
+        1.278,
+        -0.958,
+        2.099
+      ],
+      "reach_zone": "High (>1.2m)",
+      "parent_object": {
+        "annot_id": "c793addb-92d0-407e-82a9-8f78062e36d0",
+        "label": "radiator",
+        "interaction": "rotate to adjust the temperature"
+      }
+    },
+    {
+      "scene_id": "2livingroom",
+      "annot_id": "ebf1a3bd-12cf-4557-93d5-9ca9171dd954",
+      "label": "power strip",
+      "category": "interactive_element",
+      "points": 1185,
+      "height_above_floor_m": 0.0824,
+      "height_min_m": 0.0198,
+      "height_max_m": 0.1314,
+      "height_span_m": 0.1116,
+      "raw_z_m": -1.1415,
+      "floor_z_m": -1.2239,
+      "position_floor_aligned": [
+        -1.207,
+        0.502,
+        0.082
+      ],
+      "reach_zone": "Low (0.0-0.5m)",
+      "parent_object": {
+        "annot_id": "21693307-b11f-4e4c-b460-a67747feea34",
+        "label": "television",
+        "interaction": "provide power"
+      }
+    },
+    {
+      "scene_id": "2livingroom",
+      "annot_id": "c9c617a3-80f9-4807-9e0d-10eb0bd2f950",
+      "label": "electric outlet",
+      "category": "interactive_element",
+      "points": 444,
+      "height_above_floor_m": 0.2977,
+      "height_min_m": 0.2482,
+      "height_max_m": 0.3409,
+      "height_span_m": 0.0927,
+      "raw_z_m": -0.9262,
+      "floor_z_m": -1.2239,
+      "position_floor_aligned": [
+        0.064,
+        1.622,
+        0.298
+      ],
+      "reach_zone": "Low (0.0-0.5m)",
+      "parent_object": {
+        "annot_id": "21693307-b11f-4e4c-b460-a67747feea34",
+        "label": "television",
+        "interaction": "provide power"
+      }
+    },
+    {
+      "scene_id": "2livingroom",
+      "annot_id": "20c85680-6e72-4a9a-b504-bdacb0320d1b",
+      "label": "remote",
+      "category": "interactive_element",
+      "points": 738,
+      "height_above_floor_m": 0.4045,
+      "height_min_m": 0.3887,
+      "height_max_m": 0.4109,
+      "height_span_m": 0.0222,
+      "raw_z_m": -0.8194,
+      "floor_z_m": -1.2239,
+      "position_floor_aligned": [
+        -0.083,
+        -0.423,
+        0.405
+      ],
+      "reach_zone": "Low (0.0-0.5m)",
+      "parent_object": {
+        "annot_id": "21693307-b11f-4e4c-b460-a67747feea34",
+        "label": "television",
+        "interaction": "control"
+      }
+    },
+    {
+      "scene_id": "2livingroom",
+      "annot_id": "0b1b0b28-1142-45c4-8b86-bb5280026492",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 189,
+      "height_above_floor_m": 0.6182,
+      "height_min_m": 0.5949,
+      "height_max_m": 0.6379,
+      "height_span_m": 0.043,
+      "raw_z_m": -0.6056,
+      "floor_z_m": -1.2239,
+      "position_floor_aligned": [
+        -0.677,
+        -1.951,
+        0.618
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "94189713-a417-4c4e-84af-0ca6397a6f52",
+        "label": "radiator",
+        "interaction": "rotate to adjust the temperature"
+      }
+    },
+    {
+      "scene_id": "2livingroom",
+      "annot_id": "cbf329cc-7f40-4d68-ad3e-e297f8453bf8",
+      "label": "power strip / electric outlet",
+      "category": "interactive_element",
+      "points": 1012,
+      "height_above_floor_m": 0.7706,
+      "height_min_m": 0.7299,
+      "height_max_m": 0.8009,
+      "height_span_m": 0.071,
+      "raw_z_m": -0.4533,
+      "floor_z_m": -1.2239,
+      "position_floor_aligned": [
+        2.255,
+        -0.89,
+        0.771
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "54e0ca38-c7e4-41f9-b3ab-616766867953",
+        "label": "lamp",
+        "interaction": "provide power"
+      }
+    },
+    {
+      "scene_id": "3kitchen",
+      "annot_id": "8afd5554-722f-43fc-bbd4-9a2e2b902a58",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 51,
+      "height_above_floor_m": 0.2743,
+      "height_min_m": 0.2664,
+      "height_max_m": 0.2814,
+      "height_span_m": 0.0149,
+      "raw_z_m": -0.9746,
+      "floor_z_m": -1.2489,
+      "position_floor_aligned": [
+        -1.178,
+        0.617,
+        0.274
+      ],
+      "reach_zone": "Low (0.0-0.5m)",
+      "parent_object": {
+        "annot_id": "26e1c6c1-390e-4baf-8844-f3aa7e33516f",
+        "label": "kitchen cabinet / drawer",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "3kitchen",
+      "annot_id": "f292060f-d75e-481d-9b2e-6a3141aa6f06",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 87,
+      "height_above_floor_m": 0.6516,
+      "height_min_m": 0.645,
+      "height_max_m": 0.6597,
+      "height_span_m": 0.0148,
+      "raw_z_m": -0.5973,
+      "floor_z_m": -1.2489,
+      "position_floor_aligned": [
+        -0.421,
+        -0.475,
+        0.652
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "fa25f213-0aa8-4084-97ff-a990f17f4302",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "3kitchen",
+      "annot_id": "99e1e2c2-0076-4700-bbc0-a97ec08346c3",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 79,
+      "height_above_floor_m": 0.6526,
+      "height_min_m": 0.6414,
+      "height_max_m": 0.6604,
+      "height_span_m": 0.019,
+      "raw_z_m": -0.5963,
+      "floor_z_m": -1.2489,
+      "position_floor_aligned": [
+        -0.35,
+        -0.582,
+        0.653
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "fa25f213-0aa8-4084-97ff-a990f17f4302",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "3kitchen",
+      "annot_id": "572c154c-575f-40cc-9a67-8f295a4d3b31",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 82,
+      "height_above_floor_m": 0.6528,
+      "height_min_m": 0.6419,
+      "height_max_m": 0.6612,
+      "height_span_m": 0.0192,
+      "raw_z_m": -0.5962,
+      "floor_z_m": -1.2489,
+      "position_floor_aligned": [
+        -0.749,
+        -0.035,
+        0.653
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "fa25f213-0aa8-4084-97ff-a990f17f4302",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "3kitchen",
+      "annot_id": "4a3b6cab-dbe3-49ea-b77e-1eec3a15bbb7",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 114,
+      "height_above_floor_m": 0.7469,
+      "height_min_m": 0.7269,
+      "height_max_m": 0.7649,
+      "height_span_m": 0.038,
+      "raw_z_m": -0.5021,
+      "floor_z_m": -1.2489,
+      "position_floor_aligned": [
+        -0.006,
+        -1.065,
+        0.747
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "57895ee6-21fc-4706-80d1-0507c60b2749",
+        "label": "oven",
+        "interaction": "rotate to adjust temperature or setting, open or close"
+      }
+    },
+    {
+      "scene_id": "3kitchen",
+      "annot_id": "9865f477-df67-4813-9120-ed2e3ec77383",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 99,
+      "height_above_floor_m": 0.7493,
+      "height_min_m": 0.7305,
+      "height_max_m": 0.764,
+      "height_span_m": 0.0335,
+      "raw_z_m": -0.4996,
+      "floor_z_m": -1.2489,
+      "position_floor_aligned": [
+        -0.04,
+        -1.018,
+        0.749
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "57895ee6-21fc-4706-80d1-0507c60b2749",
+        "label": "oven",
+        "interaction": "rotate to adjust temperature or setting, open or close"
+      }
+    },
+    {
+      "scene_id": "3kitchen",
+      "annot_id": "cba6cd3d-f29e-4fb3-bb44-6e738202d7d6",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 89,
+      "height_above_floor_m": 0.7499,
+      "height_min_m": 0.7309,
+      "height_max_m": 0.764,
+      "height_span_m": 0.0331,
+      "raw_z_m": -0.4991,
+      "floor_z_m": -1.2489,
+      "position_floor_aligned": [
+        0.194,
+        -1.33,
+        0.75
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "57895ee6-21fc-4706-80d1-0507c60b2749",
+        "label": "oven",
+        "interaction": "rotate to adjust temperature or setting, open or close"
+      }
+    },
+    {
+      "scene_id": "3kitchen",
+      "annot_id": "f39a91fc-e687-4602-ad0b-bbde919f746a",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 96,
+      "height_above_floor_m": 0.7502,
+      "height_min_m": 0.7311,
+      "height_max_m": 0.7657,
+      "height_span_m": 0.0347,
+      "raw_z_m": -0.4987,
+      "floor_z_m": -1.2489,
+      "position_floor_aligned": [
+        0.126,
+        -1.239,
+        0.75
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "57895ee6-21fc-4706-80d1-0507c60b2749",
+        "label": "oven",
+        "interaction": "rotate to adjust temperature or setting, open or close"
+      }
+    },
+    {
+      "scene_id": "3kitchen",
+      "annot_id": "0b1700cb-5847-4249-bc88-a6a7e06765be",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 86,
+      "height_above_floor_m": 0.7508,
+      "height_min_m": 0.7312,
+      "height_max_m": 0.765,
+      "height_span_m": 0.0338,
+      "raw_z_m": -0.4982,
+      "floor_z_m": -1.2489,
+      "position_floor_aligned": [
+        0.162,
+        -1.287,
+        0.751
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "57895ee6-21fc-4706-80d1-0507c60b2749",
+        "label": "oven",
+        "interaction": "rotate to adjust temperature or setting, open or close"
+      }
+    },
+    {
+      "scene_id": "3kitchen",
+      "annot_id": "16d54d1e-68ea-40e7-9a96-028594f89903",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 75,
+      "height_above_floor_m": 0.7533,
+      "height_min_m": 0.7348,
+      "height_max_m": 0.765,
+      "height_span_m": 0.0302,
+      "raw_z_m": -0.4956,
+      "floor_z_m": -1.2489,
+      "position_floor_aligned": [
+        0.23,
+        -1.377,
+        0.753
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "57895ee6-21fc-4706-80d1-0507c60b2749",
+        "label": "oven",
+        "interaction": "rotate to adjust temperature or setting, open or close"
+      }
+    },
+    {
+      "scene_id": "3kitchen",
+      "annot_id": "285b0930-f4ff-4e8e-81ec-528d93fa9e35",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 93,
+      "height_above_floor_m": 0.7782,
+      "height_min_m": 0.7659,
+      "height_max_m": 0.7879,
+      "height_span_m": 0.022,
+      "raw_z_m": -0.4708,
+      "floor_z_m": -1.2489,
+      "position_floor_aligned": [
+        -0.226,
+        -0.751,
+        0.778
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "fa25f213-0aa8-4084-97ff-a990f17f4302",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "3kitchen",
+      "annot_id": "b2b09116-409c-467c-a0a3-c57c5f6987ec",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 88,
+      "height_above_floor_m": 0.7797,
+      "height_min_m": 0.7669,
+      "height_max_m": 0.7884,
+      "height_span_m": 0.0214,
+      "raw_z_m": -0.4693,
+      "floor_z_m": -1.2489,
+      "position_floor_aligned": [
+        -0.874,
+        0.134,
+        0.78
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "fa25f213-0aa8-4084-97ff-a990f17f4302",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "3kitchen",
+      "annot_id": "8b1feefd-92f9-43e8-b9e0-300c89e8fd67",
+      "label": "handle",
+      "category": "interactive_element",
+      "points": 269,
+      "height_above_floor_m": 0.9562,
+      "height_min_m": 0.9185,
+      "height_max_m": 0.9806,
+      "height_span_m": 0.0621,
+      "raw_z_m": -0.2927,
+      "floor_z_m": -1.2489,
+      "position_floor_aligned": [
+        -1.157,
+        0.918,
+        0.956
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "f88723ca-b6b0-48cf-b437-6a280fd92527",
+        "label": "door",
+        "interaction": "rotate to open or close"
+      }
+    },
+    {
+      "scene_id": "3kitchen",
+      "annot_id": "d3cf8a60-d9cb-4ffe-934c-ecefa4db9886",
+      "label": "faucet / handle",
+      "category": "interactive_element",
+      "points": 420,
+      "height_above_floor_m": 0.9667,
+      "height_min_m": 0.8994,
+      "height_max_m": 1.0367,
+      "height_span_m": 0.1373,
+      "raw_z_m": -0.2822,
+      "floor_z_m": -1.2489,
+      "position_floor_aligned": [
+        -0.966,
+        -0.553,
+        0.967
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "0a0824a3-f355-4a32-83c6-8eb5cfebde60",
+        "label": "kitchen sink",
+        "interaction": "control the water flow"
+      }
+    },
+    {
+      "scene_id": "3kitchen",
+      "annot_id": "8cad3558-ab57-4ccc-8620-5773db800740",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 326,
+      "height_above_floor_m": 1.0616,
+      "height_min_m": 1.0317,
+      "height_max_m": 1.0835,
+      "height_span_m": 0.0518,
+      "raw_z_m": -0.1873,
+      "floor_z_m": -1.2489,
+      "position_floor_aligned": [
+        -0.447,
+        1.36,
+        1.062
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "87cd6d4e-2f88-402d-a68b-16f84d64a039",
+        "label": "radiator",
+        "interaction": "rotate to adjust the temperature"
+      }
+    },
+    {
+      "scene_id": "3kitchen",
+      "annot_id": "5453c502-4b31-4627-947e-dc0fa4fed8ea",
+      "label": "handle",
+      "category": "interactive_element",
+      "points": 544,
+      "height_above_floor_m": 1.0921,
+      "height_min_m": 0.9893,
+      "height_max_m": 1.1867,
+      "height_span_m": 0.1975,
+      "raw_z_m": -0.1569,
+      "floor_z_m": -1.2489,
+      "position_floor_aligned": [
+        -1.053,
+        0.445,
+        1.092
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "48b189f9-daee-465d-ae14-063fe298bc89",
+        "label": "fridge",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "3kitchen",
+      "annot_id": "565c7436-f696-4598-b3bd-1df7902759c7",
+      "label": "switch panel",
+      "category": "interactive_element",
+      "points": 528,
+      "height_above_floor_m": 1.1127,
+      "height_min_m": 1.0634,
+      "height_max_m": 1.1652,
+      "height_span_m": 0.1018,
+      "raw_z_m": -0.1363,
+      "floor_z_m": -1.2489,
+      "position_floor_aligned": [
+        -1.355,
+        0.874,
+        1.113
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "c4600564-5ab3-436c-b661-69c0154576d2",
+        "label": "ceiling light fixture",
+        "interaction": "control, turn on or turn off"
+      }
+    },
+    {
+      "scene_id": "3kitchen",
+      "annot_id": "b365109d-4732-45b1-9a02-86423e5187f5",
+      "label": "electric outlet",
+      "category": "interactive_element",
+      "points": 628,
+      "height_above_floor_m": 1.1427,
+      "height_min_m": 1.0909,
+      "height_max_m": 1.1914,
+      "height_span_m": 0.1005,
+      "raw_z_m": -0.1063,
+      "floor_z_m": -1.2489,
+      "position_floor_aligned": [
+        -0.609,
+        -1.235,
+        1.143
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "9a497ea9-e3be-4edd-881e-8f66135e1d24",
+        "label": "coffee maker",
+        "interaction": "provide power"
+      }
+    },
+    {
+      "scene_id": "3kitchen",
+      "annot_id": "4ac9151a-9b84-49fc-88bd-3f4abd3dafa3",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 86,
+      "height_above_floor_m": 1.6573,
+      "height_min_m": 1.6469,
+      "height_max_m": 1.6699,
+      "height_span_m": 0.023,
+      "raw_z_m": 0.4084,
+      "floor_z_m": -1.2489,
+      "position_floor_aligned": [
+        -1.055,
+        0.446,
+        1.657
+      ],
+      "reach_zone": "High (>1.2m)",
+      "parent_object": {
+        "annot_id": "cd95a35a-cac6-4998-9383-26c78a1b7455",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "4livingroom",
+      "annot_id": "1069895b-76b9-4980-ac7b-5f271d13a83b",
+      "label": "handle",
+      "category": "interactive_element",
+      "points": 204,
+      "height_above_floor_m": 0.3579,
+      "height_min_m": 0.3511,
+      "height_max_m": 0.3605,
+      "height_span_m": 0.0095,
+      "raw_z_m": -0.8944,
+      "floor_z_m": -1.2523,
+      "position_floor_aligned": [
+        1.537,
+        -1.201,
+        0.358
+      ],
+      "reach_zone": "Low (0.0-0.5m)",
+      "parent_object": {
+        "annot_id": "b40e025d-f8b5-4fa4-9347-1274e26c37bc",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "4livingroom",
+      "annot_id": "63c060d9-e638-49c5-b70d-db1782d77257",
+      "label": "remote",
+      "category": "interactive_element",
+      "points": 278,
+      "height_above_floor_m": 0.498,
+      "height_min_m": 0.4791,
+      "height_max_m": 0.5033,
+      "height_span_m": 0.0241,
+      "raw_z_m": -0.7543,
+      "floor_z_m": -1.2523,
+      "position_floor_aligned": [
+        -2.555,
+        0.579,
+        0.498
+      ],
+      "reach_zone": "Low (0.0-0.5m)",
+      "parent_object": {
+        "annot_id": "80230e76-18d0-4b4d-86a2-43d0118067e3",
+        "label": "television",
+        "interaction": "control"
+      }
+    },
+    {
+      "scene_id": "4livingroom",
+      "annot_id": "33eac69d-ce91-45c8-8d55-c04dcc7863f9",
+      "label": "handle",
+      "category": "interactive_element",
+      "points": 155,
+      "height_above_floor_m": 0.6637,
+      "height_min_m": 0.6599,
+      "height_max_m": 0.6683,
+      "height_span_m": 0.0084,
+      "raw_z_m": -0.5886,
+      "floor_z_m": -1.2523,
+      "position_floor_aligned": [
+        0.0,
+        -1.436,
+        0.664
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "5fcbe0c1-e753-48f9-881a-6104441be49a",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "4livingroom",
+      "annot_id": "85eb89bd-6ee7-4621-8a4f-823af6b41a72",
+      "label": "handle",
+      "category": "interactive_element",
+      "points": 188,
+      "height_above_floor_m": 0.6639,
+      "height_min_m": 0.6573,
+      "height_max_m": 0.6683,
+      "height_span_m": 0.011,
+      "raw_z_m": -0.5883,
+      "floor_z_m": -1.2523,
+      "position_floor_aligned": [
+        1.53,
+        -1.197,
+        0.664
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "b40e025d-f8b5-4fa4-9347-1274e26c37bc",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "4livingroom",
+      "annot_id": "7868405c-e703-4450-963c-bf7cad5e84b3",
+      "label": "handle",
+      "category": "interactive_element",
+      "points": 280,
+      "height_above_floor_m": 0.6642,
+      "height_min_m": 0.6456,
+      "height_max_m": 0.6684,
+      "height_span_m": 0.0228,
+      "raw_z_m": -0.5881,
+      "floor_z_m": -1.2523,
+      "position_floor_aligned": [
+        1.252,
+        -2.114,
+        0.664
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "b9dfc044-a71e-4f90-a3ac-ebb0c6fc2723",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "4livingroom",
+      "annot_id": "0d4d0b33-aa83-4d76-82c1-341bbb71a09d",
+      "label": "handle",
+      "category": "interactive_element",
+      "points": 1249,
+      "height_above_floor_m": 0.684,
+      "height_min_m": 0.6573,
+      "height_max_m": 0.6938,
+      "height_span_m": 0.0365,
+      "raw_z_m": -0.5683,
+      "floor_z_m": -1.2523,
+      "position_floor_aligned": [
+        1.555,
+        -1.764,
+        0.684
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "6a144bdf-6523-4bf8-8b64-d6bb63ee967c",
+        "label": "oven",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "4livingroom",
+      "annot_id": "d920ef1d-43f0-4dbd-988c-128c8376acb4",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 151,
+      "height_above_floor_m": 0.7544,
+      "height_min_m": 0.7323,
+      "height_max_m": 0.7718,
+      "height_span_m": 0.0395,
+      "raw_z_m": -0.4978,
+      "floor_z_m": -1.2523,
+      "position_floor_aligned": [
+        1.468,
+        -1.89,
+        0.754
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "6a144bdf-6523-4bf8-8b64-d6bb63ee967c",
+        "label": "oven",
+        "interaction": "rotate to open or close, or to adjust the setting and temperature"
+      }
+    },
+    {
+      "scene_id": "4livingroom",
+      "annot_id": "d4c63e47-dc32-4285-96b0-f03ad84f25e7",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 131,
+      "height_above_floor_m": 0.7553,
+      "height_min_m": 0.7373,
+      "height_max_m": 0.7704,
+      "height_span_m": 0.0331,
+      "raw_z_m": -0.4969,
+      "floor_z_m": -1.2523,
+      "position_floor_aligned": [
+        1.686,
+        -1.644,
+        0.755
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "6a144bdf-6523-4bf8-8b64-d6bb63ee967c",
+        "label": "oven",
+        "interaction": "rotate to open or close, or to adjust the setting and temperature"
+      }
+    },
+    {
+      "scene_id": "4livingroom",
+      "annot_id": "e893754b-bbe7-4c2d-a6d0-ed54b816bdfd",
+      "label": "handle",
+      "category": "interactive_element",
+      "points": 232,
+      "height_above_floor_m": 0.8064,
+      "height_min_m": 0.7954,
+      "height_max_m": 0.8204,
+      "height_span_m": 0.0251,
+      "raw_z_m": -0.4459,
+      "floor_z_m": -1.2523,
+      "position_floor_aligned": [
+        0.322,
+        -1.727,
+        0.806
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "5fcbe0c1-e753-48f9-881a-6104441be49a",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "4livingroom",
+      "annot_id": "ead8ecc5-2d26-4cb3-9777-bfb575b219ac",
+      "label": "handle",
+      "category": "interactive_element",
+      "points": 239,
+      "height_above_floor_m": 0.8077,
+      "height_min_m": 0.7923,
+      "height_max_m": 0.8117,
+      "height_span_m": 0.0195,
+      "raw_z_m": -0.4446,
+      "floor_z_m": -1.2523,
+      "position_floor_aligned": [
+        1.214,
+        -2.158,
+        0.808
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "b9dfc044-a71e-4f90-a3ac-ebb0c6fc2723",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "4livingroom",
+      "annot_id": "3f96bab7-8ee2-40ee-b201-cfebadcf7582",
+      "label": "handle",
+      "category": "interactive_element",
+      "points": 198,
+      "height_above_floor_m": 0.808,
+      "height_min_m": 0.8011,
+      "height_max_m": 0.8113,
+      "height_span_m": 0.0102,
+      "raw_z_m": -0.4442,
+      "floor_z_m": -1.2523,
+      "position_floor_aligned": [
+        1.534,
+        -1.2,
+        0.808
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "b40e025d-f8b5-4fa4-9347-1274e26c37bc",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "4livingroom",
+      "annot_id": "992edb77-c4a4-4b5a-a532-b0485f102738",
+      "label": "handle",
+      "category": "interactive_element",
+      "points": 206,
+      "height_above_floor_m": 0.8083,
+      "height_min_m": 0.8006,
+      "height_max_m": 0.8123,
+      "height_span_m": 0.0117,
+      "raw_z_m": -0.4439,
+      "floor_z_m": -1.2523,
+      "position_floor_aligned": [
+        1.186,
+        -0.885,
+        0.808
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "4a931c41-5b5a-4ddb-90de-03e3654ff85e",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "4livingroom",
+      "annot_id": "2ab3d46d-6803-4800-a37c-021a75ba83d8",
+      "label": "handle",
+      "category": "interactive_element",
+      "points": 145,
+      "height_above_floor_m": 0.8086,
+      "height_min_m": 0.8013,
+      "height_max_m": 0.812,
+      "height_span_m": 0.0107,
+      "raw_z_m": -0.4437,
+      "floor_z_m": -1.2523,
+      "position_floor_aligned": [
+        -0.003,
+        -1.435,
+        0.809
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "5fcbe0c1-e753-48f9-881a-6104441be49a",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "4livingroom",
+      "annot_id": "b9aabe16-2e07-4516-bc8b-40b89902736c",
+      "label": "handle",
+      "category": "interactive_element",
+      "points": 191,
+      "height_above_floor_m": 0.9514,
+      "height_min_m": 0.9466,
+      "height_max_m": 0.9543,
+      "height_span_m": 0.0077,
+      "raw_z_m": -0.3009,
+      "floor_z_m": -1.2523,
+      "position_floor_aligned": [
+        1.179,
+        -0.881,
+        0.951
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "4a931c41-5b5a-4ddb-90de-03e3654ff85e",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "4livingroom",
+      "annot_id": "377ca5bd-82e6-4fef-a528-bfc62ebc687a",
+      "label": "handle",
+      "category": "interactive_element",
+      "points": 278,
+      "height_above_floor_m": 1.0149,
+      "height_min_m": 0.9745,
+      "height_max_m": 1.0513,
+      "height_span_m": 0.0768,
+      "raw_z_m": -0.2374,
+      "floor_z_m": -1.2523,
+      "position_floor_aligned": [
+        -1.132,
+        -1.244,
+        1.015
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "be854fc1-da14-4471-85ce-4ddbeb684f31",
+        "label": "door",
+        "interaction": "rotate to open or close"
+      }
+    },
+    {
+      "scene_id": "4livingroom",
+      "annot_id": "be4b5219-1023-4b39-8a9d-cbb485a50538",
+      "label": "faucet / handle",
+      "category": "interactive_element",
+      "points": 1178,
+      "height_above_floor_m": 1.0233,
+      "height_min_m": 0.9,
+      "height_max_m": 1.1193,
+      "height_span_m": 0.2193,
+      "raw_z_m": -0.229,
+      "floor_z_m": -1.2523,
+      "position_floor_aligned": [
+        0.421,
+        -2.501,
+        1.023
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "f92d6939-4b73-4797-a5a4-8799ab5bb544",
+        "label": "kitchen sink",
+        "interaction": "control the water flow"
+      }
+    },
+    {
+      "scene_id": "4livingroom",
+      "annot_id": "7f123f47-979c-461d-a71f-6a681be6a3dc",
+      "label": "electric outlet",
+      "category": "interactive_element",
+      "points": 1571,
+      "height_above_floor_m": 1.0504,
+      "height_min_m": 0.99,
+      "height_max_m": 1.0956,
+      "height_span_m": 0.1055,
+      "raw_z_m": -0.2019,
+      "floor_z_m": -1.2523,
+      "position_floor_aligned": [
+        -0.361,
+        -1.944,
+        1.05
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "67058b7d-34ea-42ed-87e8-b660aad77409",
+        "label": "kettle",
+        "interaction": "provide power"
+      }
+    },
+    {
+      "scene_id": "5kitchen",
+      "annot_id": "889a3eae-65bd-4e72-99c9-3eda86a52001",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 236,
+      "height_above_floor_m": 0.6686,
+      "height_min_m": 0.6339,
+      "height_max_m": 0.702,
+      "height_span_m": 0.0682,
+      "raw_z_m": -0.5786,
+      "floor_z_m": -1.2472,
+      "position_floor_aligned": [
+        -0.274,
+        -0.758,
+        0.669
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "bcc11fea-162f-47e0-a86b-34f1d5d2fb69",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "5kitchen",
+      "annot_id": "772ffb5a-aa96-4134-8646-00f1e9d9d6cb",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 176,
+      "height_above_floor_m": 0.6702,
+      "height_min_m": 0.6432,
+      "height_max_m": 0.7026,
+      "height_span_m": 0.0594,
+      "raw_z_m": -0.577,
+      "floor_z_m": -1.2472,
+      "position_floor_aligned": [
+        -0.692,
+        -0.148,
+        0.67
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "bcc11fea-162f-47e0-a86b-34f1d5d2fb69",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "5kitchen",
+      "annot_id": "76c3de9b-9a11-47c1-86cf-3475f10c0cc1",
+      "label": "handle",
+      "category": "interactive_element",
+      "points": 866,
+      "height_above_floor_m": 0.686,
+      "height_min_m": 0.6735,
+      "height_max_m": 0.6926,
+      "height_span_m": 0.0191,
+      "raw_z_m": -0.5612,
+      "floor_z_m": -1.2472,
+      "position_floor_aligned": [
+        -0.901,
+        0.2,
+        0.686
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "93bc40e7-e4d3-4a03-a0ec-b587ccc52159",
+        "label": "oven",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "5kitchen",
+      "annot_id": "c70a5d29-4dbf-4410-9d08-e5351faeb24c",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 115,
+      "height_above_floor_m": 0.7535,
+      "height_min_m": 0.7336,
+      "height_max_m": 0.7722,
+      "height_span_m": 0.0386,
+      "raw_z_m": -0.4937,
+      "floor_z_m": -1.2472,
+      "position_floor_aligned": [
+        -1.049,
+        0.374,
+        0.753
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "93bc40e7-e4d3-4a03-a0ec-b587ccc52159",
+        "label": "oven",
+        "interaction": "rotate to adjust the setting or temperature, or to open or close"
+      }
+    },
+    {
+      "scene_id": "5kitchen",
+      "annot_id": "dd94396b-b0ef-44c4-a1ae-83ff219607db",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 107,
+      "height_above_floor_m": 0.7542,
+      "height_min_m": 0.7332,
+      "height_max_m": 0.7727,
+      "height_span_m": 0.0395,
+      "raw_z_m": -0.493,
+      "floor_z_m": -1.2472,
+      "position_floor_aligned": [
+        -1.017,
+        0.329,
+        0.754
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "93bc40e7-e4d3-4a03-a0ec-b587ccc52159",
+        "label": "oven",
+        "interaction": "rotate to adjust the setting or temperature, or to open or close"
+      }
+    },
+    {
+      "scene_id": "5kitchen",
+      "annot_id": "6c9960b2-9c67-4daa-813b-061ebfcab127",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 128,
+      "height_above_floor_m": 0.756,
+      "height_min_m": 0.7362,
+      "height_max_m": 0.7752,
+      "height_span_m": 0.039,
+      "raw_z_m": -0.4912,
+      "floor_z_m": -1.2472,
+      "position_floor_aligned": [
+        -0.803,
+        0.013,
+        0.756
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "93bc40e7-e4d3-4a03-a0ec-b587ccc52159",
+        "label": "oven",
+        "interaction": "rotate to adjust the setting or temperature, or to open or close"
+      }
+    },
+    {
+      "scene_id": "5kitchen",
+      "annot_id": "c81e7268-4eaf-4990-bcd6-34e2a660c25f",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 134,
+      "height_above_floor_m": 0.7561,
+      "height_min_m": 0.7337,
+      "height_max_m": 0.7732,
+      "height_span_m": 0.0395,
+      "raw_z_m": -0.4911,
+      "floor_z_m": -1.2472,
+      "position_floor_aligned": [
+        -0.867,
+        0.108,
+        0.756
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "93bc40e7-e4d3-4a03-a0ec-b587ccc52159",
+        "label": "oven",
+        "interaction": "rotate to adjust the setting or temperature, or to open or close"
+      }
+    },
+    {
+      "scene_id": "5kitchen",
+      "annot_id": "160f1d58-6577-4ba9-9910-31d65bea9d4d",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 119,
+      "height_above_floor_m": 0.7585,
+      "height_min_m": 0.737,
+      "height_max_m": 0.7752,
+      "height_span_m": 0.0382,
+      "raw_z_m": -0.4887,
+      "floor_z_m": -1.2472,
+      "position_floor_aligned": [
+        -0.986,
+        0.281,
+        0.758
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "93bc40e7-e4d3-4a03-a0ec-b587ccc52159",
+        "label": "oven",
+        "interaction": "rotate to adjust the setting or temperature, or to open or close"
+      }
+    },
+    {
+      "scene_id": "5kitchen",
+      "annot_id": "5847e99a-ed77-4d93-9907-dadfe91239ce",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 99,
+      "height_above_floor_m": 0.7599,
+      "height_min_m": 0.7419,
+      "height_max_m": 0.7752,
+      "height_span_m": 0.0333,
+      "raw_z_m": -0.4873,
+      "floor_z_m": -1.2472,
+      "position_floor_aligned": [
+        -0.836,
+        0.061,
+        0.76
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "93bc40e7-e4d3-4a03-a0ec-b587ccc52159",
+        "label": "oven",
+        "interaction": "rotate to adjust the setting or temperature, or to open or close"
+      }
+    },
+    {
+      "scene_id": "5kitchen",
+      "annot_id": "b809b058-e459-42e5-8f5f-3438566e3145",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 232,
+      "height_above_floor_m": 0.786,
+      "height_min_m": 0.754,
+      "height_max_m": 0.8167,
+      "height_span_m": 0.0628,
+      "raw_z_m": -0.4612,
+      "floor_z_m": -1.2472,
+      "position_floor_aligned": [
+        -0.329,
+        -0.673,
+        0.786
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "bcc11fea-162f-47e0-a86b-34f1d5d2fb69",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "5kitchen",
+      "annot_id": "8b3801a9-bfb3-4823-961f-b2acf2bbe60c",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 230,
+      "height_above_floor_m": 0.7948,
+      "height_min_m": 0.7682,
+      "height_max_m": 0.8271,
+      "height_span_m": 0.0589,
+      "raw_z_m": -0.4524,
+      "floor_z_m": -1.2472,
+      "position_floor_aligned": [
+        -0.697,
+        -0.15,
+        0.795
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "bcc11fea-162f-47e0-a86b-34f1d5d2fb69",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "5kitchen",
+      "annot_id": "187043d5-992f-49c6-84d4-c829fd7ed35e",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 230,
+      "height_above_floor_m": 0.7965,
+      "height_min_m": 0.7689,
+      "height_max_m": 0.8252,
+      "height_span_m": 0.0563,
+      "raw_z_m": -0.4507,
+      "floor_z_m": -1.2472,
+      "position_floor_aligned": [
+        0.038,
+        -1.219,
+        0.797
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "bcc11fea-162f-47e0-a86b-34f1d5d2fb69",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "5kitchen",
+      "annot_id": "14753073-2a95-496e-91e5-2385981f2468",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 201,
+      "height_above_floor_m": 0.7982,
+      "height_min_m": 0.7657,
+      "height_max_m": 0.8263,
+      "height_span_m": 0.0606,
+      "raw_z_m": -0.449,
+      "floor_z_m": -1.2472,
+      "position_floor_aligned": [
+        -0.141,
+        -0.95,
+        0.798
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "bcc11fea-162f-47e0-a86b-34f1d5d2fb69",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "5kitchen",
+      "annot_id": "3a785df0-8006-459d-9889-826cf20a0c40",
+      "label": "faucet / handle",
+      "category": "interactive_element",
+      "points": 619,
+      "height_above_floor_m": 0.9427,
+      "height_min_m": 0.8861,
+      "height_max_m": 1.1052,
+      "height_span_m": 0.2191,
+      "raw_z_m": -0.3045,
+      "floor_z_m": -1.2472,
+      "position_floor_aligned": [
+        -0.853,
+        -0.802,
+        0.943
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "9f14ebb1-eef5-412d-a794-8029fc60edbc",
+        "label": "kitchen sink",
+        "interaction": "control the water flow"
+      }
+    },
+    {
+      "scene_id": "5kitchen",
+      "annot_id": "7236b136-3cf9-4b53-86fd-c3aade3b3c5a",
+      "label": "handle",
+      "category": "interactive_element",
+      "points": 127,
+      "height_above_floor_m": 0.9961,
+      "height_min_m": 0.983,
+      "height_max_m": 1.0073,
+      "height_span_m": 0.0243,
+      "raw_z_m": -0.2511,
+      "floor_z_m": -1.2472,
+      "position_floor_aligned": [
+        0.891,
+        -1.944,
+        0.996
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "640d926a-e319-46db-8ee8-a949f4c92d01",
+        "label": "door",
+        "interaction": "rotate to open or close"
+      }
+    },
+    {
+      "scene_id": "5kitchen",
+      "annot_id": "ce10ad19-b93f-496c-af83-6c9c9dad0970",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 166,
+      "height_above_floor_m": 1.1064,
+      "height_min_m": 1.0822,
+      "height_max_m": 1.1282,
+      "height_span_m": 0.046,
+      "raw_z_m": -0.1408,
+      "floor_z_m": -1.2472,
+      "position_floor_aligned": [
+        1.239,
+        -0.618,
+        1.106
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "552ff359-5931-4f18-8a14-1ae262e7f7b3",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "5kitchen",
+      "annot_id": "77476c49-0e1a-42a8-acac-98b6daffb205",
+      "label": "electric outlet",
+      "category": "interactive_element",
+      "points": 678,
+      "height_above_floor_m": 1.1354,
+      "height_min_m": 1.0832,
+      "height_max_m": 1.1838,
+      "height_span_m": 0.1006,
+      "raw_z_m": -0.1118,
+      "floor_z_m": -1.2472,
+      "position_floor_aligned": [
+        -1.172,
+        -0.484,
+        1.135
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "94d9254f-2032-4490-a0ae-aa992627c207",
+        "label": "kettle",
+        "interaction": "provide power"
+      }
+    },
+    {
+      "scene_id": "5kitchen",
+      "annot_id": "018c9bbb-b61e-40b0-a89c-8acb8494118e",
+      "label": "handle",
+      "category": "interactive_element",
+      "points": 410,
+      "height_above_floor_m": 1.1389,
+      "height_min_m": 1.0235,
+      "height_max_m": 1.2407,
+      "height_span_m": 0.2173,
+      "raw_z_m": -0.1083,
+      "floor_z_m": -1.2472,
+      "position_floor_aligned": [
+        1.166,
+        -0.665,
+        1.139
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "c1db0ee0-0baf-4a98-882d-11a8d6468c5f",
+        "label": "fridge",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "5kitchen",
+      "annot_id": "cb59c632-4e43-46f4-a615-73193e65ba15",
+      "label": "handle",
+      "category": "interactive_element",
+      "points": 395,
+      "height_above_floor_m": 1.3668,
+      "height_min_m": 1.3422,
+      "height_max_m": 1.3842,
+      "height_span_m": 0.042,
+      "raw_z_m": 0.1196,
+      "floor_z_m": -1.2472,
+      "position_floor_aligned": [
+        -1.081,
+        0.697,
+        1.367
+      ],
+      "reach_zone": "High (>1.2m)",
+      "parent_object": {
+        "annot_id": "5022f815-0411-494b-b086-9683d5da1d89",
+        "label": "window",
+        "interaction": "rotate to open or close"
+      }
+    },
+    {
+      "scene_id": "5kitchen",
+      "annot_id": "5510652e-a780-40a0-ac21-a7aa0a6a36c8",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 304,
+      "height_above_floor_m": 1.4056,
+      "height_min_m": 1.3782,
+      "height_max_m": 1.439,
+      "height_span_m": 0.0608,
+      "raw_z_m": 0.1584,
+      "floor_z_m": -1.2472,
+      "position_floor_aligned": [
+        -0.466,
+        -0.936,
+        1.406
+      ],
+      "reach_zone": "High (>1.2m)",
+      "parent_object": {
+        "annot_id": "3e07c31d-1cf9-4a04-a76d-13334080bc7c",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "5kitchen",
+      "annot_id": "113d6f17-5cee-4965-8395-9a4e6f977017",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 276,
+      "height_above_floor_m": 1.4114,
+      "height_min_m": 1.3854,
+      "height_max_m": 1.4408,
+      "height_span_m": 0.0554,
+      "raw_z_m": 0.1642,
+      "floor_z_m": -1.2472,
+      "position_floor_aligned": [
+        -0.15,
+        -1.39,
+        1.411
+      ],
+      "reach_zone": "High (>1.2m)",
+      "parent_object": {
+        "annot_id": "3e07c31d-1cf9-4a04-a76d-13334080bc7c",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "5kitchen",
+      "annot_id": "8b9321f0-c364-443d-99f5-6c26fd516ca4",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 83,
+      "height_above_floor_m": 1.4771,
+      "height_min_m": 1.4581,
+      "height_max_m": 1.4936,
+      "height_span_m": 0.0355,
+      "raw_z_m": 0.2299,
+      "floor_z_m": -1.2472,
+      "position_floor_aligned": [
+        -0.757,
+        -0.497,
+        1.477
+      ],
+      "reach_zone": "High (>1.2m)",
+      "parent_object": {
+        "annot_id": "1871b5d6-c2bf-4548-aec9-e4d9c08d5bf1",
+        "label": "microwave oven",
+        "interaction": "rotate to adjust the setting or temperature, or to open or close"
+      }
+    },
+    {
+      "scene_id": "5kitchen",
+      "annot_id": "7de0fa81-afa9-46d7-b18a-6c79297faa94",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 78,
+      "height_above_floor_m": 1.5536,
+      "height_min_m": 1.5417,
+      "height_max_m": 1.5639,
+      "height_span_m": 0.0222,
+      "raw_z_m": 0.3064,
+      "floor_z_m": -1.2472,
+      "position_floor_aligned": [
+        -0.757,
+        -0.49,
+        1.554
+      ],
+      "reach_zone": "High (>1.2m)",
+      "parent_object": {
+        "annot_id": "1871b5d6-c2bf-4548-aec9-e4d9c08d5bf1",
+        "label": "microwave oven",
+        "interaction": "rotate to adjust the setting or temperature, or to open or close"
+      }
+    },
+    {
+      "scene_id": "5kitchen",
+      "annot_id": "4f3a8c60-6ebb-4dff-a45f-8489bdc9f476",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 377,
+      "height_above_floor_m": 1.6685,
+      "height_min_m": 1.6369,
+      "height_max_m": 1.6992,
+      "height_span_m": 0.0623,
+      "raw_z_m": 0.4213,
+      "floor_z_m": -1.2472,
+      "position_floor_aligned": [
+        0.789,
+        -0.943,
+        1.669
+      ],
+      "reach_zone": "High (>1.2m)",
+      "parent_object": {
+        "annot_id": "552ff359-5931-4f18-8a14-1ae262e7f7b3",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "6kitchen",
+      "annot_id": "41a017b4-c7a9-4e64-9d70-aa97acc58a5c",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 150,
+      "height_above_floor_m": 0.2711,
+      "height_min_m": 0.2446,
+      "height_max_m": 0.2864,
+      "height_span_m": 0.0419,
+      "raw_z_m": -0.9504,
+      "floor_z_m": -1.2216,
+      "position_floor_aligned": [
+        -1.05,
+        -0.573,
+        0.271
+      ],
+      "reach_zone": "Low (0.0-0.5m)",
+      "parent_object": {
+        "annot_id": "bd1e147b-9089-4ee9-81dc-028747537a02",
+        "label": "drawer / kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "6kitchen",
+      "annot_id": "a8c195c1-772f-418d-899c-6f1ef79401d5",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 198,
+      "height_above_floor_m": 0.2759,
+      "height_min_m": 0.2489,
+      "height_max_m": 0.2978,
+      "height_span_m": 0.0489,
+      "raw_z_m": -0.9457,
+      "floor_z_m": -1.2216,
+      "position_floor_aligned": [
+        -1.384,
+        0.868,
+        0.276
+      ],
+      "reach_zone": "Low (0.0-0.5m)",
+      "parent_object": {
+        "annot_id": "7dbf59bc-f6a6-483a-bb31-7064c1f7c4b1",
+        "label": "cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "6kitchen",
+      "annot_id": "99cb4399-efc9-412e-94f3-bad250496efa",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 210,
+      "height_above_floor_m": 0.3989,
+      "height_min_m": 0.373,
+      "height_max_m": 0.4176,
+      "height_span_m": 0.0446,
+      "raw_z_m": -0.8226,
+      "floor_z_m": -1.2216,
+      "position_floor_aligned": [
+        -0.56,
+        -0.594,
+        0.399
+      ],
+      "reach_zone": "Low (0.0-0.5m)",
+      "parent_object": {
+        "annot_id": "e5429f83-7567-4185-87ae-d2870c6921eb",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "6kitchen",
+      "annot_id": "332a8993-749f-4254-979f-e5c9cbd51acb",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 254,
+      "height_above_floor_m": 0.6126,
+      "height_min_m": 0.5846,
+      "height_max_m": 0.6306,
+      "height_span_m": 0.046,
+      "raw_z_m": -0.609,
+      "floor_z_m": -1.2216,
+      "position_floor_aligned": [
+        -0.796,
+        1.031,
+        0.613
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "845e0325-c38a-403c-a076-1cbb07eb43a6",
+        "label": "radiator",
+        "interaction": "rotate to adjust the temperature"
+      }
+    },
+    {
+      "scene_id": "6kitchen",
+      "annot_id": "e6d4f3d7-20c1-4a13-892b-f5926a2b5146",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 214,
+      "height_above_floor_m": 0.65,
+      "height_min_m": 0.6196,
+      "height_max_m": 0.6716,
+      "height_span_m": 0.052,
+      "raw_z_m": -0.5715,
+      "floor_z_m": -1.2216,
+      "position_floor_aligned": [
+        -0.559,
+        -0.596,
+        0.65
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "e5429f83-7567-4185-87ae-d2870c6921eb",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "6kitchen",
+      "annot_id": "836c1d30-a168-4c20-bc62-cf04ed8e98f1",
+      "label": "handle",
+      "category": "interactive_element",
+      "points": 658,
+      "height_above_floor_m": 0.6725,
+      "height_min_m": 0.6636,
+      "height_max_m": 0.6786,
+      "height_span_m": 0.015,
+      "raw_z_m": -0.5491,
+      "floor_z_m": -1.2216,
+      "position_floor_aligned": [
+        -0.08,
+        -0.613,
+        0.672
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "57af8075-e6f1-4a8f-ad01-f9124fd322ee",
+        "label": "oven",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "6kitchen",
+      "annot_id": "a2af6703-20e2-4de3-9e2d-e9572aba8319",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 69,
+      "height_above_floor_m": 0.7501,
+      "height_min_m": 0.7379,
+      "height_max_m": 0.7583,
+      "height_span_m": 0.0204,
+      "raw_z_m": -0.4714,
+      "floor_z_m": -1.2216,
+      "position_floor_aligned": [
+        -0.217,
+        -0.631,
+        0.75
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "57af8075-e6f1-4a8f-ad01-f9124fd322ee",
+        "label": "oven",
+        "interaction": "rotate to open or close, or to adjust the temperature and setting"
+      }
+    },
+    {
+      "scene_id": "6kitchen",
+      "annot_id": "85d30623-02a5-43c5-a361-ea348d7c80b9",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 85,
+      "height_above_floor_m": 0.7502,
+      "height_min_m": 0.739,
+      "height_max_m": 0.7606,
+      "height_span_m": 0.0216,
+      "raw_z_m": -0.4713,
+      "floor_z_m": -1.2216,
+      "position_floor_aligned": [
+        -0.002,
+        -0.635,
+        0.75
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "57af8075-e6f1-4a8f-ad01-f9124fd322ee",
+        "label": "oven",
+        "interaction": "rotate to open or close, or to adjust the temperature and setting"
+      }
+    },
+    {
+      "scene_id": "6kitchen",
+      "annot_id": "66585692-502f-4554-a909-1e3be0e63a41",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 66,
+      "height_above_floor_m": 0.7502,
+      "height_min_m": 0.7356,
+      "height_max_m": 0.7606,
+      "height_span_m": 0.025,
+      "raw_z_m": -0.4714,
+      "floor_z_m": -1.2216,
+      "position_floor_aligned": [
+        -0.272,
+        -0.631,
+        0.75
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "57af8075-e6f1-4a8f-ad01-f9124fd322ee",
+        "label": "oven",
+        "interaction": "rotate to open or close, or to adjust the temperature and setting"
+      }
+    },
+    {
+      "scene_id": "6kitchen",
+      "annot_id": "7a21d6ca-af3d-4f0a-b610-c57997f4814a",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 140,
+      "height_above_floor_m": 0.7516,
+      "height_min_m": 0.732,
+      "height_max_m": 0.7674,
+      "height_span_m": 0.0354,
+      "raw_z_m": -0.47,
+      "floor_z_m": -1.2216,
+      "position_floor_aligned": [
+        0.051,
+        -0.641,
+        0.752
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "57af8075-e6f1-4a8f-ad01-f9124fd322ee",
+        "label": "oven",
+        "interaction": "rotate to open or close, or to adjust the temperature and setting"
+      }
+    },
+    {
+      "scene_id": "6kitchen",
+      "annot_id": "bb65366b-3b76-4a69-b7bc-49bfdb4a9253",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 70,
+      "height_above_floor_m": 0.7517,
+      "height_min_m": 0.7382,
+      "height_max_m": 0.7625,
+      "height_span_m": 0.0242,
+      "raw_z_m": -0.4699,
+      "floor_z_m": -1.2216,
+      "position_floor_aligned": [
+        -0.159,
+        -0.632,
+        0.752
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "57af8075-e6f1-4a8f-ad01-f9124fd322ee",
+        "label": "oven",
+        "interaction": "rotate to open or close, or to adjust the temperature and setting"
+      }
+    },
+    {
+      "scene_id": "6kitchen",
+      "annot_id": "2cac307d-ccf4-4567-abbb-8c0e99517248",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 114,
+      "height_above_floor_m": 0.7529,
+      "height_min_m": 0.7391,
+      "height_max_m": 0.7673,
+      "height_span_m": 0.0283,
+      "raw_z_m": -0.4687,
+      "floor_z_m": -1.2216,
+      "position_floor_aligned": [
+        0.107,
+        -0.64,
+        0.753
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "57af8075-e6f1-4a8f-ad01-f9124fd322ee",
+        "label": "oven",
+        "interaction": "rotate to open or close, or to adjust the temperature and setting"
+      }
+    },
+    {
+      "scene_id": "6kitchen",
+      "annot_id": "523dff48-dbe3-4f8d-92b8-134d9d74b92c",
+      "label": "dishwasher button / dishwasher switch",
+      "category": "interactive_element",
+      "points": 444,
+      "height_above_floor_m": 0.768,
+      "height_min_m": 0.7421,
+      "height_max_m": 0.8076,
+      "height_span_m": 0.0656,
+      "raw_z_m": -0.4536,
+      "floor_z_m": -1.2216,
+      "position_floor_aligned": [
+        0.844,
+        -0.659,
+        0.768
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "8f136460-9a3a-4d88-a8e6-1f799fb03eb1",
+        "label": "dishwasher",
+        "interaction": "press to start and operate"
+      }
+    },
+    {
+      "scene_id": "6kitchen",
+      "annot_id": "6ab1eb7c-b836-4d0b-9754-39c483ab8f5a",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 231,
+      "height_above_floor_m": 0.7788,
+      "height_min_m": 0.7494,
+      "height_max_m": 0.8006,
+      "height_span_m": 0.0512,
+      "raw_z_m": -0.4428,
+      "floor_z_m": -1.2216,
+      "position_floor_aligned": [
+        -0.554,
+        -0.604,
+        0.779
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "e5429f83-7567-4185-87ae-d2870c6921eb",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "6kitchen",
+      "annot_id": "f159fc9d-a85a-4631-a854-cc2d672c6c99",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 201,
+      "height_above_floor_m": 0.7804,
+      "height_min_m": 0.7535,
+      "height_max_m": 0.8018,
+      "height_span_m": 0.0483,
+      "raw_z_m": -0.4412,
+      "floor_z_m": -1.2216,
+      "position_floor_aligned": [
+        0.255,
+        -0.629,
+        0.78
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "200ff035-918f-4da8-963f-48da4becfef8",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "6kitchen",
+      "annot_id": "0ae6e50a-c2a9-4de9-9b24-0da39f94c84c",
+      "label": "handle",
+      "category": "interactive_element",
+      "points": 410,
+      "height_above_floor_m": 0.8439,
+      "height_min_m": 0.7496,
+      "height_max_m": 0.9336,
+      "height_span_m": 0.1841,
+      "raw_z_m": -0.3776,
+      "floor_z_m": -1.2216,
+      "position_floor_aligned": [
+        -0.801,
+        -0.571,
+        0.844
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "bea31796-ad45-496c-9ec0-e845937a6a31",
+        "label": "fridge",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "6kitchen",
+      "annot_id": "6072dac4-dc16-4bc4-a39e-6c88838cdf9b",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 167,
+      "height_above_floor_m": 0.9649,
+      "height_min_m": 0.939,
+      "height_max_m": 0.9886,
+      "height_span_m": 0.0496,
+      "raw_z_m": -0.2567,
+      "floor_z_m": -1.2216,
+      "position_floor_aligned": [
+        -1.376,
+        0.738,
+        0.965
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "7dbf59bc-f6a6-483a-bb31-7064c1f7c4b1",
+        "label": "cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "6kitchen",
+      "annot_id": "564f7972-3bdf-4289-902d-9f547cabf0f5",
+      "label": "handle",
+      "category": "interactive_element",
+      "points": 130,
+      "height_above_floor_m": 0.9989,
+      "height_min_m": 0.9926,
+      "height_max_m": 1.0156,
+      "height_span_m": 0.023,
+      "raw_z_m": -0.2227,
+      "floor_z_m": -1.2216,
+      "position_floor_aligned": [
+        -1.758,
+        -0.22,
+        0.999
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "93dbea78-522d-4530-a3bd-799ab596b00c",
+        "label": "door",
+        "interaction": "rotate to open or close"
+      }
+    },
+    {
+      "scene_id": "6kitchen",
+      "annot_id": "a6fcc36d-4a05-473a-ae6d-a439e5c2bac7",
+      "label": "faucet / handle",
+      "category": "interactive_element",
+      "points": 1142,
+      "height_above_floor_m": 1.0007,
+      "height_min_m": 0.8787,
+      "height_max_m": 1.0916,
+      "height_span_m": 0.2128,
+      "raw_z_m": -0.2209,
+      "floor_z_m": -1.2216,
+      "position_floor_aligned": [
+        0.644,
+        -1.089,
+        1.001
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "ce3ec539-72ea-4a8f-8325-b59f685a553c",
+        "label": "kitchen sink",
+        "interaction": "control the water flow"
+      }
+    },
+    {
+      "scene_id": "6kitchen",
+      "annot_id": "d81bd65a-00bf-4ed1-a746-9952ad905805",
+      "label": "electric outlet",
+      "category": "interactive_element",
+      "points": 425,
+      "height_above_floor_m": 1.2523,
+      "height_min_m": 1.2056,
+      "height_max_m": 1.2927,
+      "height_span_m": 0.0871,
+      "raw_z_m": 0.0308,
+      "floor_z_m": -1.2216,
+      "position_floor_aligned": [
+        0.063,
+        1.15,
+        1.252
+      ],
+      "reach_zone": "High (>1.2m)",
+      "parent_object": {
+        "annot_id": "1dd2697e-7f19-4c5b-b84f-eeb010ea1925",
+        "label": "electric cooker",
+        "interaction": "provide power"
+      }
+    },
+    {
+      "scene_id": "6kitchen",
+      "annot_id": "0d1fe9ae-c2f9-4d2d-861f-f3cb1afd8f41",
+      "label": "handle",
+      "category": "interactive_element",
+      "points": 417,
+      "height_above_floor_m": 1.3642,
+      "height_min_m": 1.2766,
+      "height_max_m": 1.4606,
+      "height_span_m": 0.184,
+      "raw_z_m": 0.1426,
+      "floor_z_m": -1.2216,
+      "position_floor_aligned": [
+        -0.801,
+        -0.569,
+        1.364
+      ],
+      "reach_zone": "High (>1.2m)",
+      "parent_object": {
+        "annot_id": "bea31796-ad45-496c-9ec0-e845937a6a31",
+        "label": "fridge",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "6kitchen",
+      "annot_id": "cacd6963-5050-43fe-86b5-11ec27a0636e",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 227,
+      "height_above_floor_m": 1.4055,
+      "height_min_m": 1.3809,
+      "height_max_m": 1.4319,
+      "height_span_m": 0.051,
+      "raw_z_m": 0.1839,
+      "floor_z_m": -1.2216,
+      "position_floor_aligned": [
+        -0.426,
+        -0.858,
+        1.405
+      ],
+      "reach_zone": "High (>1.2m)",
+      "parent_object": {
+        "annot_id": "42e9cf6d-2db7-4dd1-af4b-d94c0e8e5391",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "6kitchen",
+      "annot_id": "dc3c3978-e1b1-49f4-b393-fa0996d947e2",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 176,
+      "height_above_floor_m": 1.4074,
+      "height_min_m": 1.382,
+      "height_max_m": 1.4321,
+      "height_span_m": 0.0501,
+      "raw_z_m": 0.1858,
+      "floor_z_m": -1.2216,
+      "position_floor_aligned": [
+        0.258,
+        -0.866,
+        1.407
+      ],
+      "reach_zone": "High (>1.2m)",
+      "parent_object": {
+        "annot_id": "c5d91ced-49b1-4f5e-8f33-681b7741e503",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "6kitchen",
+      "annot_id": "09edd23e-7648-474d-b28e-298134f24a18",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 177,
+      "height_above_floor_m": 1.4088,
+      "height_min_m": 1.3846,
+      "height_max_m": 1.4356,
+      "height_span_m": 0.051,
+      "raw_z_m": 0.1872,
+      "floor_z_m": -1.2216,
+      "position_floor_aligned": [
+        0.809,
+        -0.873,
+        1.409
+      ],
+      "reach_zone": "High (>1.2m)",
+      "parent_object": {
+        "annot_id": "927ceae7-27a5-4069-99ed-6aa90471e064",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "6kitchen",
+      "annot_id": "d3f6114d-9018-4c5e-9476-acf0c050c92d",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 160,
+      "height_above_floor_m": 1.7825,
+      "height_min_m": 1.7596,
+      "height_max_m": 1.8071,
+      "height_span_m": 0.0475,
+      "raw_z_m": 0.5609,
+      "floor_z_m": -1.2216,
+      "position_floor_aligned": [
+        0.128,
+        -0.866,
+        1.782
+      ],
+      "reach_zone": "High (>1.2m)",
+      "parent_object": {
+        "annot_id": "87a2cda1-2803-452c-a0d3-5d02582f8ff9",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "6kitchen",
+      "annot_id": "2a9a17c1-0848-4909-976c-3f64d8614784",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 212,
+      "height_above_floor_m": 1.9071,
+      "height_min_m": 1.8846,
+      "height_max_m": 1.9356,
+      "height_span_m": 0.051,
+      "raw_z_m": 0.6856,
+      "floor_z_m": -1.2216,
+      "position_floor_aligned": [
+        -0.839,
+        -0.579,
+        1.907
+      ],
+      "reach_zone": "High (>1.2m)",
+      "parent_object": {
+        "annot_id": "9335a7cb-3e37-4da4-863d-28fa3420071d",
+        "label": "kitchen cabinet",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "7bedroom",
+      "annot_id": "59da02a6-2683-4f2f-985a-7789355c1346",
+      "label": "handle",
+      "category": "interactive_element",
+      "points": 208,
+      "height_above_floor_m": 0.2126,
+      "height_min_m": 0.2012,
+      "height_max_m": 0.2207,
+      "height_span_m": 0.0194,
+      "raw_z_m": -1.0458,
+      "floor_z_m": -1.2584,
+      "position_floor_aligned": [
+        1.005,
+        -1.782,
+        0.213
+      ],
+      "reach_zone": "Low (0.0-0.5m)",
+      "parent_object": {
+        "annot_id": "56946ad4-862c-471c-ac69-2297b5ee81fa",
+        "label": "wardrobe",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "7bedroom",
+      "annot_id": "61b87c65-f637-4b37-822f-7cd096c149f3",
+      "label": "handle",
+      "category": "interactive_element",
+      "points": 179,
+      "height_above_floor_m": 0.218,
+      "height_min_m": 0.2054,
+      "height_max_m": 0.2288,
+      "height_span_m": 0.0233,
+      "raw_z_m": -1.0404,
+      "floor_z_m": -1.2584,
+      "position_floor_aligned": [
+        1.385,
+        -1.348,
+        0.218
+      ],
+      "reach_zone": "Low (0.0-0.5m)",
+      "parent_object": {
+        "annot_id": "56946ad4-862c-471c-ac69-2297b5ee81fa",
+        "label": "wardrobe",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "7bedroom",
+      "annot_id": "eed128d4-b8b5-468b-8c57-72d607267ccd",
+      "label": "handle",
+      "category": "interactive_element",
+      "points": 297,
+      "height_above_floor_m": 0.4173,
+      "height_min_m": 0.4014,
+      "height_max_m": 0.4346,
+      "height_span_m": 0.0332,
+      "raw_z_m": -0.8412,
+      "floor_z_m": -1.2584,
+      "position_floor_aligned": [
+        1.01,
+        -1.784,
+        0.417
+      ],
+      "reach_zone": "Low (0.0-0.5m)",
+      "parent_object": {
+        "annot_id": "56946ad4-862c-471c-ac69-2297b5ee81fa",
+        "label": "wardrobe",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "7bedroom",
+      "annot_id": "b1addeea-9b12-49d3-ac46-6533ed37715d",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 54,
+      "height_above_floor_m": 1.0785,
+      "height_min_m": 1.0691,
+      "height_max_m": 1.0849,
+      "height_span_m": 0.0158,
+      "raw_z_m": -0.18,
+      "floor_z_m": -1.2584,
+      "position_floor_aligned": [
+        -0.373,
+        -1.84,
+        1.078
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "05be65a1-e275-43e5-a360-02e91fa10628",
+        "label": "wardrobe",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "7bedroom",
+      "annot_id": "573c6e1b-99ea-45a3-8eb4-4dcdccf583ef",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 49,
+      "height_above_floor_m": 1.0808,
+      "height_min_m": 1.0684,
+      "height_max_m": 1.0874,
+      "height_span_m": 0.019,
+      "raw_z_m": -0.1777,
+      "floor_z_m": -1.2584,
+      "position_floor_aligned": [
+        -0.323,
+        -1.881,
+        1.081
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "05be65a1-e275-43e5-a360-02e91fa10628",
+        "label": "wardrobe",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "7bedroom",
+      "annot_id": "f126f357-9ad0-4053-ab0d-30e91d954fbe",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 111,
+      "height_above_floor_m": 1.0812,
+      "height_min_m": 1.0649,
+      "height_max_m": 1.0927,
+      "height_span_m": 0.0278,
+      "raw_z_m": -0.1772,
+      "floor_z_m": -1.2584,
+      "position_floor_aligned": [
+        -1.128,
+        -1.178,
+        1.081
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "ea2f8ec5-8551-451e-99fb-cd953d0c26cf",
+        "label": "wardrobe",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "7bedroom",
+      "annot_id": "16942605-5ac2-42d7-9c3e-c461367959c1",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 75,
+      "height_above_floor_m": 1.0826,
+      "height_min_m": 1.0661,
+      "height_max_m": 1.093,
+      "height_span_m": 0.0269,
+      "raw_z_m": -0.1758,
+      "floor_z_m": -1.2584,
+      "position_floor_aligned": [
+        -1.073,
+        -1.223,
+        1.083
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "ea2f8ec5-8551-451e-99fb-cd953d0c26cf",
+        "label": "wardrobe",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "7bedroom",
+      "annot_id": "19d6b49b-e3f7-41b9-a761-c8a6b20c055c",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 37,
+      "height_above_floor_m": 1.0868,
+      "height_min_m": 1.0789,
+      "height_max_m": 1.0954,
+      "height_span_m": 0.0165,
+      "raw_z_m": -0.1717,
+      "floor_z_m": -1.2584,
+      "position_floor_aligned": [
+        -1.829,
+        -0.566,
+        1.087
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "dd7e47e2-e2de-44c2-bf64-cdaf4f10d6a2",
+        "label": "wardrobe",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "7bedroom",
+      "annot_id": "a684e470-54e6-4e90-833f-cf6506b2cc3f",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 36,
+      "height_above_floor_m": 1.0901,
+      "height_min_m": 1.0814,
+      "height_max_m": 1.0959,
+      "height_span_m": 0.0145,
+      "raw_z_m": -0.1683,
+      "floor_z_m": -1.2584,
+      "position_floor_aligned": [
+        -1.874,
+        -0.526,
+        1.09
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "dd7e47e2-e2de-44c2-bf64-cdaf4f10d6a2",
+        "label": "wardrobe",
+        "interaction": "pull to open or close"
+      }
+    },
+    {
+      "scene_id": "8bathroom",
+      "annot_id": "f333180c-848a-446e-95a0-350373919882",
+      "label": "handle",
+      "category": "interactive_element",
+      "points": 84,
+      "height_above_floor_m": 0.3536,
+      "height_min_m": 0.3475,
+      "height_max_m": 0.3588,
+      "height_span_m": 0.0113,
+      "raw_z_m": -1.2322,
+      "floor_z_m": -1.5858,
+      "position_floor_aligned": [
+        -0.891,
+        0.447,
+        0.354
+      ],
+      "reach_zone": "Low (0.0-0.5m)",
+      "parent_object": {
+        "annot_id": "1ec675f3-1586-4b74-ba3c-e70e66733ed1",
+        "label": "trashcan",
+        "interaction": "push or press to open"
+      }
+    },
+    {
+      "scene_id": "8bathroom",
+      "annot_id": "4167f5bb-d862-46a4-92cc-6482c15c8bde",
+      "label": "button / knob",
+      "category": "interactive_element",
+      "points": 53,
+      "height_above_floor_m": 0.4373,
+      "height_min_m": 0.4348,
+      "height_max_m": 0.4391,
+      "height_span_m": 0.0042,
+      "raw_z_m": -1.1485,
+      "floor_z_m": -1.5858,
+      "position_floor_aligned": [
+        0.672,
+        0.806,
+        0.437
+      ],
+      "reach_zone": "Low (0.0-0.5m)",
+      "parent_object": {
+        "annot_id": "7c1ca272-9dc3-4c13-b302-121e1656c560",
+        "label": "bathtub",
+        "interaction": "control to drain the water flow"
+      }
+    },
+    {
+      "scene_id": "8bathroom",
+      "annot_id": "9c8bddfc-cdcd-40ba-9729-e4c49b4049b0",
+      "label": "button / knob",
+      "category": "interactive_element",
+      "points": 324,
+      "height_above_floor_m": 0.7631,
+      "height_min_m": 0.6971,
+      "height_max_m": 0.8018,
+      "height_span_m": 0.1047,
+      "raw_z_m": -0.8227,
+      "floor_z_m": -1.5858,
+      "position_floor_aligned": [
+        0.665,
+        1.006,
+        0.763
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "7c1ca272-9dc3-4c13-b302-121e1656c560",
+        "label": "bathtub",
+        "interaction": "control the water flow"
+      }
+    },
+    {
+      "scene_id": "8bathroom",
+      "annot_id": "56f40eb3-3424-4859-839b-0d9ec00a6e10",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 126,
+      "height_above_floor_m": 0.8468,
+      "height_min_m": 0.8353,
+      "height_max_m": 0.8773,
+      "height_span_m": 0.042,
+      "raw_z_m": -0.739,
+      "floor_z_m": -1.5858,
+      "position_floor_aligned": [
+        0.942,
+        1.068,
+        0.847
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "7c1ca272-9dc3-4c13-b302-121e1656c560",
+        "label": "bathtub",
+        "interaction": "control the water flow"
+      }
+    },
+    {
+      "scene_id": "8bathroom",
+      "annot_id": "f4714feb-efc3-4cca-b535-a3270c31d890",
+      "label": "faucet / handle",
+      "category": "interactive_element",
+      "points": 918,
+      "height_above_floor_m": 0.9859,
+      "height_min_m": 0.9353,
+      "height_max_m": 1.0538,
+      "height_span_m": 0.1185,
+      "raw_z_m": -0.5999,
+      "floor_z_m": -1.5858,
+      "position_floor_aligned": [
+        0.581,
+        1.023,
+        0.986
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "7c1ca272-9dc3-4c13-b302-121e1656c560",
+        "label": "bathtub",
+        "interaction": "control the water flow"
+      }
+    },
+    {
+      "scene_id": "8bathroom",
+      "annot_id": "b37833b6-ef42-4f64-ae12-8ba154f68996",
+      "label": "button",
+      "category": "interactive_element",
+      "points": 808,
+      "height_above_floor_m": 1.1326,
+      "height_min_m": 1.1138,
+      "height_max_m": 1.1384,
+      "height_span_m": 0.0246,
+      "raw_z_m": -0.4532,
+      "floor_z_m": -1.5858,
+      "position_floor_aligned": [
+        0.039,
+        0.664,
+        1.133
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "5f582d20-42f4-4b89-b73e-2d09719cfa10",
+        "label": "toilet",
+        "interaction": "press to flush"
+      }
+    },
+    {
+      "scene_id": "8bathroom",
+      "annot_id": "d2d55c1d-5111-4c65-9a50-f47546533178",
+      "label": "faucet / handle",
+      "category": "interactive_element",
+      "points": 627,
+      "height_above_floor_m": 1.213,
+      "height_min_m": 1.1532,
+      "height_max_m": 1.307,
+      "height_span_m": 0.1539,
+      "raw_z_m": -0.3728,
+      "floor_z_m": -1.5858,
+      "position_floor_aligned": [
+        -0.694,
+        0.627,
+        1.213
+      ],
+      "reach_zone": "High (>1.2m)",
+      "parent_object": {
+        "annot_id": "feba042f-5b0d-4b98-8a56-cc73d6112cdf",
+        "label": "bathroom sink",
+        "interaction": "control the water flow"
+      }
+    },
+    {
+      "scene_id": "8bathroom",
+      "annot_id": "84573a3a-5866-4526-bfa4-4106ae991e73",
+      "label": "handle",
+      "category": "interactive_element",
+      "points": 131,
+      "height_above_floor_m": 1.3193,
+      "height_min_m": 1.2936,
+      "height_max_m": 1.3372,
+      "height_span_m": 0.0436,
+      "raw_z_m": -0.2665,
+      "floor_z_m": -1.5858,
+      "position_floor_aligned": [
+        -0.39,
+        -1.145,
+        1.319
+      ],
+      "reach_zone": "High (>1.2m)",
+      "parent_object": {
+        "annot_id": "cf0c700f-886c-4800-93ac-4c98f49e3afb",
+        "label": "door",
+        "interaction": "rotate to open or close"
+      }
+    },
+    {
+      "scene_id": "9bedroom",
+      "annot_id": "ba3b88f8-c9b9-477b-8df8-7d85369b77ab",
+      "label": "electric outlet",
+      "category": "interactive_element",
+      "points": 418,
+      "height_above_floor_m": 0.1863,
+      "height_min_m": 0.1335,
+      "height_max_m": 0.2224,
+      "height_span_m": 0.0889,
+      "raw_z_m": -1.0531,
+      "floor_z_m": -1.2395,
+      "position_floor_aligned": [
+        1.544,
+        -1.561,
+        0.186
+      ],
+      "reach_zone": "Low (0.0-0.5m)",
+      "parent_object": {
+        "annot_id": "2c4ee92a-0bd1-4eae-ad96-3cbe2dec7b3d",
+        "label": "lamp",
+        "interaction": "provide power"
+      }
+    },
+    {
+      "scene_id": "9bedroom",
+      "annot_id": "c64d8fe5-02d2-4d62-9624-e33a4cc60e63",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 20,
+      "height_above_floor_m": 0.2878,
+      "height_min_m": 0.2831,
+      "height_max_m": 0.2925,
+      "height_span_m": 0.0093,
+      "raw_z_m": -0.9516,
+      "floor_z_m": -1.2395,
+      "position_floor_aligned": [
+        -1.463,
+        -0.704,
+        0.288
+      ],
+      "reach_zone": "Low (0.0-0.5m)",
+      "parent_object": {
+        "annot_id": "6feb4acb-d2eb-4f5f-a7b0-aa9ee463f975",
+        "label": "dresser / chest of drawers",
+        "interaction": "pull to open or close a drawer"
+      }
+    },
+    {
+      "scene_id": "9bedroom",
+      "annot_id": "b5e2a756-8d25-4a6d-b5a5-e650b6acc682",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 60,
+      "height_above_floor_m": 0.2948,
+      "height_min_m": 0.2823,
+      "height_max_m": 0.3075,
+      "height_span_m": 0.0251,
+      "raw_z_m": -0.9447,
+      "floor_z_m": -1.2395,
+      "position_floor_aligned": [
+        -1.459,
+        -0.247,
+        0.295
+      ],
+      "reach_zone": "Low (0.0-0.5m)",
+      "parent_object": {
+        "annot_id": "6feb4acb-d2eb-4f5f-a7b0-aa9ee463f975",
+        "label": "dresser / chest of drawers",
+        "interaction": "pull to open or close a drawer"
+      }
+    },
+    {
+      "scene_id": "9bedroom",
+      "annot_id": "e7d5fc81-7265-4aeb-9d9c-5832ba0a019e",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 42,
+      "height_above_floor_m": 0.4896,
+      "height_min_m": 0.482,
+      "height_max_m": 0.4956,
+      "height_span_m": 0.0136,
+      "raw_z_m": -0.7499,
+      "floor_z_m": -1.2395,
+      "position_floor_aligned": [
+        -1.45,
+        -0.706,
+        0.49
+      ],
+      "reach_zone": "Low (0.0-0.5m)",
+      "parent_object": {
+        "annot_id": "6feb4acb-d2eb-4f5f-a7b0-aa9ee463f975",
+        "label": "dresser / chest of drawers",
+        "interaction": "pull to open or close a drawer"
+      }
+    },
+    {
+      "scene_id": "9bedroom",
+      "annot_id": "2f761382-82f1-4609-8a12-39d71cda6ce7",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 96,
+      "height_above_floor_m": 0.4937,
+      "height_min_m": 0.4776,
+      "height_max_m": 0.5099,
+      "height_span_m": 0.0322,
+      "raw_z_m": -0.7457,
+      "floor_z_m": -1.2395,
+      "position_floor_aligned": [
+        -1.452,
+        -0.252,
+        0.494
+      ],
+      "reach_zone": "Low (0.0-0.5m)",
+      "parent_object": {
+        "annot_id": "6feb4acb-d2eb-4f5f-a7b0-aa9ee463f975",
+        "label": "dresser / chest of drawers",
+        "interaction": "pull to open or close a drawer"
+      }
+    },
+    {
+      "scene_id": "9bedroom",
+      "annot_id": "d0cb4755-ccf4-41db-ad35-457d5171084b",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 157,
+      "height_above_floor_m": 0.622,
+      "height_min_m": 0.5973,
+      "height_max_m": 0.6447,
+      "height_span_m": 0.0474,
+      "raw_z_m": -0.6174,
+      "floor_z_m": -1.2395,
+      "position_floor_aligned": [
+        1.678,
+        0.587,
+        0.622
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "330bc4be-f766-452f-b708-90e3803d8f64",
+        "label": "radiator",
+        "interaction": "rotate to adjust the temperature"
+      }
+    },
+    {
+      "scene_id": "9bedroom",
+      "annot_id": "c7330652-ceba-4c91-8952-1453770391ca",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 141,
+      "height_above_floor_m": 0.6487,
+      "height_min_m": 0.6255,
+      "height_max_m": 0.6745,
+      "height_span_m": 0.049,
+      "raw_z_m": -0.5908,
+      "floor_z_m": -1.2395,
+      "position_floor_aligned": [
+        -1.466,
+        -0.718,
+        0.649
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "6feb4acb-d2eb-4f5f-a7b0-aa9ee463f975",
+        "label": "dresser / chest of drawers",
+        "interaction": "pull to open or close a drawer"
+      }
+    },
+    {
+      "scene_id": "9bedroom",
+      "annot_id": "cb65ae94-f347-448e-ae45-b8c3e756913d",
+      "label": "knob",
+      "category": "interactive_element",
+      "points": 65,
+      "height_above_floor_m": 0.6604,
+      "height_min_m": 0.6451,
+      "height_max_m": 0.6754,
+      "height_span_m": 0.0302,
+      "raw_z_m": -0.579,
+      "floor_z_m": -1.2395,
+      "position_floor_aligned": [
+        -1.45,
+        -0.251,
+        0.66
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "6feb4acb-d2eb-4f5f-a7b0-aa9ee463f975",
+        "label": "dresser / chest of drawers",
+        "interaction": "pull to open or close a drawer"
+      }
+    },
+    {
+      "scene_id": "9bedroom",
+      "annot_id": "3f7eaf9a-faaa-468b-9671-93df342285be",
+      "label": "handle",
+      "category": "interactive_element",
+      "points": 129,
+      "height_above_floor_m": 1.0093,
+      "height_min_m": 1.0005,
+      "height_max_m": 1.0146,
+      "height_span_m": 0.0141,
+      "raw_z_m": -0.2302,
+      "floor_z_m": -1.2395,
+      "position_floor_aligned": [
+        -0.911,
+        1.201,
+        1.009
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "b3aeb546-9f5c-467d-a7d7-2c34598c1e60",
+        "label": "door",
+        "interaction": "rotate to open or close"
+      }
+    },
+    {
+      "scene_id": "9bedroom",
+      "annot_id": "ef9200be-2d5b-4b1c-a793-36e838b539a0",
+      "label": "electric outlet / switch panel",
+      "category": "interactive_element",
+      "points": 566,
+      "height_above_floor_m": 1.1306,
+      "height_min_m": 1.0814,
+      "height_max_m": 1.1816,
+      "height_span_m": 0.1002,
+      "raw_z_m": -0.1088,
+      "floor_z_m": -1.2395,
+      "position_floor_aligned": [
+        -0.677,
+        1.272,
+        1.131
+      ],
+      "reach_zone": "Mid / Optimal (0.5-1.2m)",
+      "parent_object": {
+        "annot_id": "65c1f8b5-26b4-484f-a08a-f71745933960",
+        "label": "ceiling light fixture",
+        "interaction": "control, turn on or turn off"
+      }
+    }
+  ]
+}

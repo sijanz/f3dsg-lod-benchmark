@@ -1,0 +1,15 @@
+# Benchmark Core Requirements
+numpy>=1.22.0
+scipy>=1.9.0
+sentence-transformers>=2.2.0
+trimesh>=3.15.0
+shapely>=1.8.0
+networkx>=2.8.0
+tqdm>=4.64.0
+
+# ROS 2 & Motion Planning Dependencies (for planning trials and replay)
+# Note: ROS 2 Humble packages (rclpy, moveit_msgs, geometry_msgs, sensor_msgs, control_msgs)
+# should be installed via the system package manager (apt install ros-humble-desktop ros-humble-moveit).
+urdf-parser-py>=1.2.0
+PyKDL
+

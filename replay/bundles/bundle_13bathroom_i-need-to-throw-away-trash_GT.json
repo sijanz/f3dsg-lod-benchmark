@@ -1,0 +1,713 @@
+[
+  {
+    "mode": "STATIC",
+    "case_id": "13bathroom_i-need-to-throw-away-trash_GT.json",
+    "arm": "identity",
+    "repeat_index": 1,
+    "outcome": "BELIEF_PLAN_FAILED",
+    "base_pose": {
+      "base_x": -0.05,
+      "base_y": -0.23,
+      "h": 0.35,
+      "base_yaw_deg": 184.24
+    },
+    "selected_pitch_deg": -80.0,
+    "selected_roll_deg": 150.0,
+    "joint_target": [
+      -5.5748973871426206e-05,
+      2.582893423016425,
+      -0.9923737433458336,
+      0.000648257293912359,
+      -0.10702273856743799,
+      1.0465499156250195
+    ],
+    "belief_octree_leaf_count": 67523,
+    "goal_valid_in_belief": false,
+    "goal_contacts": [
+      {
+        "body_1": "<octomap>",
+        "body_2": "link5",
+        "position_xyz": [
+          -0.37057240529588065,
+          -0.2805724052958807,
+          0.254212505354268
+        ],
+        "normal_xyz": [
+          0.2678695661672413,
+          0.963455186047267,
+          1.0641462989609335e-15
+        ],
+        "depth_m": 0.0008150775310080232,
+        "frame": "world",
+        "waypoint_index": 0
+      }
+    ],
+    "num_waypoints": 0,
+    "waypoints": [],
+    "r6_clearance_m": null,
+    "provenance": {
+      "build_hash_scene_builder": "27e24e83ad1c928dcd2aeca2aea94d8c56b3d7618e377941d60a5fef075db0ef",
+      "build_hash_batch_runner": "c9d1faacb457d9b84f943841a4e39af91b7335f01fdab7241c1ef7cf1b692edb",
+      "build_hash_octomap_so": "ed723984e73f8cba17ee6dc6aec2b228875823eafc35713ef0474a002df36697",
+      "build_hash_piper_srdf": "ead07feeecc122c9902436de448d58a43e6faba37b7c484c7dfd55bea9821156",
+      "defaults_hash": "b6517b1abf96d8660ce6b69fa1c28b601970784fc74509ea5756d212f9e44b97",
+      "kinematics_hash": "a6b7a49dae61476d5be938121633de8894b00b6e54312506630b9481663d1795",
+      "git_commit_sha": "f3861fc366bfc07ba936c9d8675c3f34aeb75bfa",
+      "wall_clock_timestamp": "2026-09-05T12:06:39.718569+00:00"
+    }
+  },
+  {
+    "mode": "STATIC",
+    "case_id": "13bathroom_i-need-to-throw-away-trash_GT.json",
+    "arm": "label_radius",
+    "repeat_index": 1,
+    "outcome": "BELIEF_PLAN_FAILED",
+    "base_pose": {
+      "base_x": -0.05,
+      "base_y": -0.23,
+      "h": 0.35,
+      "base_yaw_deg": 184.24
+    },
+    "selected_pitch_deg": -80.0,
+    "selected_roll_deg": 150.0,
+    "joint_target": [
+      -5.5748973871426206e-05,
+      2.582893423016425,
+      -0.9923737433458336,
+      0.000648257293912359,
+      -0.10702273856743799,
+      1.0465499156250195
+    ],
+    "belief_octree_leaf_count": 2101,
+    "goal_valid_in_belief": false,
+    "goal_contacts": [
+      {
+        "body_1": "<octomap>",
+        "body_2": "link5",
+        "position_xyz": [
+          -0.37057240529588065,
+          -0.2805724052958807,
+          0.254212505354268
+        ],
+        "normal_xyz": [
+          0.2678695661672413,
+          0.963455186047267,
+          1.0641462989609335e-15
+        ],
+        "depth_m": 0.0008150775310080232,
+        "frame": "world",
+        "waypoint_index": 0
+      }
+    ],
+    "num_waypoints": 0,
+    "waypoints": [],
+    "r6_clearance_m": null,
+    "provenance": {
+      "build_hash_scene_builder": "27e24e83ad1c928dcd2aeca2aea94d8c56b3d7618e377941d60a5fef075db0ef",
+      "build_hash_batch_runner": "c9d1faacb457d9b84f943841a4e39af91b7335f01fdab7241c1ef7cf1b692edb",
+      "build_hash_octomap_so": "ed723984e73f8cba17ee6dc6aec2b228875823eafc35713ef0474a002df36697",
+      "build_hash_piper_srdf": "ead07feeecc122c9902436de448d58a43e6faba37b7c484c7dfd55bea9821156",
+      "defaults_hash": "b6517b1abf96d8660ce6b69fa1c28b601970784fc74509ea5756d212f9e44b97",
+      "kinematics_hash": "a6b7a49dae61476d5be938121633de8894b00b6e54312506630b9481663d1795",
+      "git_commit_sha": "f3861fc366bfc07ba936c9d8675c3f34aeb75bfa",
+      "wall_clock_timestamp": "2026-09-05T12:06:40.593690+00:00"
+    }
+  },
+  {
+    "mode": "STATIC",
+    "case_id": "13bathroom_i-need-to-throw-away-trash_GT.json",
+    "arm": "combined_quantile_adaptive",
+    "repeat_index": 1,
+    "outcome": "BELIEF_PLAN_FAILED",
+    "base_pose": {
+      "base_x": -0.05,
+      "base_y": -0.23,
+      "h": 0.35,
+      "base_yaw_deg": 184.24
+    },
+    "selected_pitch_deg": -80.0,
+    "selected_roll_deg": 150.0,
+    "joint_target": [
+      -5.5748973871426206e-05,
+      2.582893423016425,
+      -0.9923737433458336,
+      0.000648257293912359,
+      -0.10702273856743799,
+      1.0465499156250195
+    ],
+    "belief_octree_leaf_count": 2101,
+    "goal_valid_in_belief": false,
+    "goal_contacts": [
+      {
+        "body_1": "<octomap>",
+        "body_2": "link5",
+        "position_xyz": [
+          -0.37057240529588065,
+          -0.2805724052958807,
+          0.254212505354268
+        ],
+        "normal_xyz": [
+          0.2678695661672413,
+          0.963455186047267,
+          1.0641462989609335e-15
+        ],
+        "depth_m": 0.0008150775310080232,
+        "frame": "world",
+        "waypoint_index": 0
+      }
+    ],
+    "num_waypoints": 0,
+    "waypoints": [],
+    "r6_clearance_m": null,
+    "provenance": {
+      "build_hash_scene_builder": "27e24e83ad1c928dcd2aeca2aea94d8c56b3d7618e377941d60a5fef075db0ef",
+      "build_hash_batch_runner": "c9d1faacb457d9b84f943841a4e39af91b7335f01fdab7241c1ef7cf1b692edb",
+      "build_hash_octomap_so": "ed723984e73f8cba17ee6dc6aec2b228875823eafc35713ef0474a002df36697",
+      "build_hash_piper_srdf": "ead07feeecc122c9902436de448d58a43e6faba37b7c484c7dfd55bea9821156",
+      "defaults_hash": "b6517b1abf96d8660ce6b69fa1c28b601970784fc74509ea5756d212f9e44b97",
+      "kinematics_hash": "a6b7a49dae61476d5be938121633de8894b00b6e54312506630b9481663d1795",
+      "git_commit_sha": "f3861fc366bfc07ba936c9d8675c3f34aeb75bfa",
+      "wall_clock_timestamp": "2026-09-05T12:06:41.060698+00:00"
+    }
+  },
+  {
+    "mode": "REPLAY",
+    "case_id": "13bathroom_i-need-to-throw-away-trash_GT.json",
+    "arm": "affordance_inherit",
+    "repeat_index": 1,
+    "outcome": "UNSAFE_COLLISION",
+    "base_pose": {
+      "base_x": -0.05,
+      "base_y": -0.23,
+      "h": 0.35,
+      "base_yaw_deg": 184.24
+    },
+    "selected_pitch_deg": -80.0,
+    "selected_roll_deg": 150.0,
+    "joint_target": [
+      -5.5748973871426206e-05,
+      2.582893423016425,
+      -0.9923737433458336,
+      0.000648257293912359,
+      -0.10702273856743799,
+      1.0465499156250195
+    ],
+    "belief_octree_leaf_count": 3398,
+    "goal_valid_in_belief": null,
+    "goal_contacts": [],
+    "num_waypoints": 34,
+    "waypoints": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.6026747896966392e-05,
+        0.004999999999999989,
+        -0.0019069351671373639,
+        -7.834017114576403e-06,
+        -0.00020545525521852256,
+        0.002045656536753796
+      ],
+      [
+        6.410699158786569e-05,
+        0.01999999999999999,
+        -0.00762774066854947,
+        -3.1336068458305674e-05,
+        -0.0008218210208740919,
+        0.008182626147015199
+      ],
+      [
+        0.0001442407310726981,
+        0.045000000000000075,
+        -0.017162416504236343,
+        -7.050615403118792e-05,
+        -0.0018490972969667104,
+        0.018410908830784233
+      ],
+      [
+        0.0002564279663514636,
+        0.08000000000000021,
+        -0.030510962674197974,
+        -0.00012534427383322308,
+        -0.0032872840834963775,
+        0.03273050458806089
+      ],
+      [
+        0.0004006686785383093,
+        0.12499999410802129,
+        -0.04767337693130993,
+        -0.00019585041863283813,
+        -0.005136381138355479,
+        0.051141411008252056
+      ],
+      [
+        0.0005769628350739178,
+        0.17999997216625782,
+        -0.0686496554015169,
+        -0.0002820245725147487,
+        -0.00739638804414911,
+        0.07364362393548149
+      ],
+      [
+        0.0007853104842469431,
+        0.24499994923972943,
+        -0.09343980383042202,
+        -0.000383866759082879,
+        -0.01006730541991476,
+        0.10023714953332034
+      ],
+      [
+        0.0010257116220829463,
+        0.31999992408849665,
+        -0.12204382174512853,
+        -0.0005013769763944876,
+        -0.013149133214702015,
+        0.1309219872944706
+      ],
+      [
+        0.001298166217144842,
+        0.40499988690486644,
+        -0.15446170540510934,
+        -0.0006345552090828477,
+        -0.01664187102550246,
+        0.16569813320629795
+      ],
+      [
+        0.0016026742851005845,
+        0.4999998425769028,
+        -0.1906934566746088,
+        -0.0007834014648065946,
+        -0.020545519053171778,
+        0.20456558926866247
+      ],
+      [
+        0.0019392358246792456,
+        0.6049997907081035,
+        -0.230739075402406,
+        -0.0009479157429444871,
+        -0.024860077281417283,
+        0.24752435531934258
+      ],
+      [
+        0.002307850842100159,
+        0.7199997332387668,
+        -0.27459856232850566,
+        -0.0011280980465365913,
+        -0.029585545789967863,
+        0.2945744321521751
+      ],
+      [
+        0.0027085193483250285,
+        0.8449996735887078,
+        -0.32227191875718086,
+        -0.0013239483809410852,
+        -0.034721924719347326,
+        0.34571582116631355
+      ],
+      [
+        0.003141241325523946,
+        0.9799996061953795,
+        -0.3737591425669482,
+        -0.0015354667374425516,
+        -0.04026921384098476,
+        0.40094852008594567
+      ],
+      [
+        0.003606016771730397,
+        1.1249995304452722,
+        -0.42906023352382316,
+        -0.0017626531150797399,
+        -0.046227413129670394,
+        0.46027252866006535
+      ],
+      [
+        0.004102845692400387,
+        1.279999448040541,
+        -0.4881751922769857,
+        -0.0020055075165195946,
+        -0.0525965226553476,
+        0.5236878475850779
+      ],
+      [
+        0.004602811974859742,
+        1.43597815491032,
+        -0.5476634485679042,
+        -0.0022498954883450636,
+        -0.059005851661064715,
+        0.5875036198455914
+      ],
+      [
+        0.005070805536081482,
+        1.581982061701143,
+        -0.6033474454476775,
+        -0.002478654909263929,
+        -0.06500530564758672,
+        0.6472383891092395
+      ],
+      [
+        0.005506745601509292,
+        1.7179859684919665,
+        -0.6552175719931763,
+        -0.0026917462959536427,
+        -0.0705938491236717,
+        0.7028818452993799
+      ],
+      [
+        0.00591063217114317,
+        1.8439898752827903,
+        -0.7032738282044004,
+        -0.002889169648414204,
+        -0.07577148208931962,
+        0.754433988416013
+      ],
+      [
+        0.006282465244983127,
+        1.959993782073618,
+        -0.7475162140813514,
+        -0.0030709249666456186,
+        -0.08053820454453069,
+        0.8018948184591399
+      ],
+      [
+        0.006622244823029148,
+        2.0659976888644445,
+        -0.7879447296240272,
+        -0.003237012250647878,
+        -0.08489401648930464,
+        0.8452643354287589
+      ],
+      [
+        0.006929970905281231,
+        2.162001595655269,
+        -0.8245593748324276,
+        -0.003387431500420982,
+        -0.08883891792364149,
+        0.8845425393248696
+      ],
+      [
+        0.0072056434917393795,
+        2.2480055024460937,
+        -0.857360149706553,
+        -0.003522182715964933,
+        -0.09237290884754126,
+        0.9197294301474725
+      ],
+      [
+        0.007449262582403591,
+        2.3240094092369175,
+        -0.8863470542464034,
+        -0.003641265897279729,
+        -0.09549598926100394,
+        0.9508250078965673
+      ],
+      [
+        0.007660828177273874,
+        2.3900133160277415,
+        -0.9115200884519794,
+        -0.003744681044365375,
+        -0.09820815916402964,
+        0.9778292725721551
+      ],
+      [
+        0.007840340276350223,
+        2.4460172228185653,
+        -0.9328792523232806,
+        -0.003832428157221866,
+        -0.10050941855661827,
+        1.0007422241742352
+      ],
+      [
+        0.007987798879632645,
+        2.492021129609392,
+        -0.9504245458603078,
+        -0.003904507235849209,
+        -0.10239976743876995,
+        1.0195638627028085
+      ],
+      [
+        0.008103203987121138,
+        2.5280250364002192,
+        -0.9641559690630608,
+        -0.003960918280247399,
+        -0.1038792058104846,
+        1.0342941881578744
+      ],
+      [
+        0.008186555598815697,
+        2.554028943191046,
+        -0.9740735219315386,
+        -0.004001661290416437,
+        -0.10494773367176219,
+        1.0449332005394325
+      ],
+      [
+        0.008237853714716322,
+        2.570032849981872,
+        -0.9801772044657416,
+        -0.004026736266356321,
+        -0.10560535102260273,
+        1.0514808998474832
+      ],
+      [
+        0.008257098334823014,
+        2.576036756772699,
+        -0.98246701666567,
+        -0.004036143208067052,
+        -0.10585205786300624,
+        1.053937286082026
+      ],
+      [
+        0.008257259857011182,
+        2.5760871482149317,
+        -0.9824862353083335,
+        -0.004036222161551229,
+        -0.10585412850033121,
+        1.0539579027986663
+      ]
+    ],
+    "r6_clearance_m": null,
+    "provenance": {
+      "build_hash_scene_builder": "27e24e83ad1c928dcd2aeca2aea94d8c56b3d7618e377941d60a5fef075db0ef",
+      "build_hash_batch_runner": "c9d1faacb457d9b84f943841a4e39af91b7335f01fdab7241c1ef7cf1b692edb",
+      "build_hash_octomap_so": "ed723984e73f8cba17ee6dc6aec2b228875823eafc35713ef0474a002df36697",
+      "build_hash_piper_srdf": "ead07feeecc122c9902436de448d58a43e6faba37b7c484c7dfd55bea9821156",
+      "defaults_hash": "b6517b1abf96d8660ce6b69fa1c28b601970784fc74509ea5756d212f9e44b97",
+      "kinematics_hash": "a6b7a49dae61476d5be938121633de8894b00b6e54312506630b9481663d1795",
+      "git_commit_sha": "f3861fc366bfc07ba936c9d8675c3f34aeb75bfa",
+      "wall_clock_timestamp": "2026-09-05T12:06:53.245735+00:00"
+    }
+  },
+  {
+    "mode": "STATIC",
+    "case_id": "13bathroom_i-need-to-throw-away-trash_GT.json",
+    "arm": "label_inherit",
+    "repeat_index": 1,
+    "outcome": "BELIEF_PLAN_FAILED",
+    "base_pose": {
+      "base_x": -0.05,
+      "base_y": -0.23,
+      "h": 0.35,
+      "base_yaw_deg": 184.24
+    },
+    "selected_pitch_deg": -80.0,
+    "selected_roll_deg": 150.0,
+    "joint_target": [
+      -5.5748973871426206e-05,
+      2.582893423016425,
+      -0.9923737433458336,
+      0.000648257293912359,
+      -0.10702273856743799,
+      1.0465499156250195
+    ],
+    "belief_octree_leaf_count": 2101,
+    "goal_valid_in_belief": false,
+    "goal_contacts": [
+      {
+        "body_1": "<octomap>",
+        "body_2": "link5",
+        "position_xyz": [
+          -0.37057240529588065,
+          -0.2805724052958807,
+          0.254212505354268
+        ],
+        "normal_xyz": [
+          0.2678695661672413,
+          0.963455186047267,
+          1.0641462989609335e-15
+        ],
+        "depth_m": 0.0008150775310080232,
+        "frame": "world",
+        "waypoint_index": 0
+      }
+    ],
+    "num_waypoints": 0,
+    "waypoints": [],
+    "r6_clearance_m": null,
+    "provenance": {
+      "build_hash_scene_builder": "27e24e83ad1c928dcd2aeca2aea94d8c56b3d7618e377941d60a5fef075db0ef",
+      "build_hash_batch_runner": "c9d1faacb457d9b84f943841a4e39af91b7335f01fdab7241c1ef7cf1b692edb",
+      "build_hash_octomap_so": "ed723984e73f8cba17ee6dc6aec2b228875823eafc35713ef0474a002df36697",
+      "build_hash_piper_srdf": "ead07feeecc122c9902436de448d58a43e6faba37b7c484c7dfd55bea9821156",
+      "defaults_hash": "b6517b1abf96d8660ce6b69fa1c28b601970784fc74509ea5756d212f9e44b97",
+      "kinematics_hash": "a6b7a49dae61476d5be938121633de8894b00b6e54312506630b9481663d1795",
+      "git_commit_sha": "f3861fc366bfc07ba936c9d8675c3f34aeb75bfa",
+      "wall_clock_timestamp": "2026-09-05T12:06:53.726012+00:00"
+    }
+  },
+  {
+    "mode": "STATIC",
+    "case_id": "13bathroom_i-need-to-throw-away-trash_GT.json",
+    "arm": "label_only",
+    "repeat_index": 1,
+    "outcome": "BELIEF_PLAN_FAILED",
+    "base_pose": {
+      "base_x": -0.05,
+      "base_y": -0.23,
+      "h": 0.35,
+      "base_yaw_deg": 184.24
+    },
+    "selected_pitch_deg": -80.0,
+    "selected_roll_deg": 150.0,
+    "joint_target": [
+      -5.5748973871426206e-05,
+      2.582893423016425,
+      -0.9923737433458336,
+      0.000648257293912359,
+      -0.10702273856743799,
+      1.0465499156250195
+    ],
+    "belief_octree_leaf_count": 2055,
+    "goal_valid_in_belief": false,
+    "goal_contacts": [
+      {
+        "body_1": "<octomap>",
+        "body_2": "link5",
+        "position_xyz": [
+          -0.37057240529588065,
+          -0.2805724052958807,
+          0.254212505354268
+        ],
+        "normal_xyz": [
+          0.2678695661672413,
+          0.963455186047267,
+          1.0641462989609335e-15
+        ],
+        "depth_m": 0.0008150775310080232,
+        "frame": "world",
+        "waypoint_index": 0
+      }
+    ],
+    "num_waypoints": 0,
+    "waypoints": [],
+    "r6_clearance_m": null,
+    "provenance": {
+      "build_hash_scene_builder": "27e24e83ad1c928dcd2aeca2aea94d8c56b3d7618e377941d60a5fef075db0ef",
+      "build_hash_batch_runner": "c9d1faacb457d9b84f943841a4e39af91b7335f01fdab7241c1ef7cf1b692edb",
+      "build_hash_octomap_so": "ed723984e73f8cba17ee6dc6aec2b228875823eafc35713ef0474a002df36697",
+      "build_hash_piper_srdf": "ead07feeecc122c9902436de448d58a43e6faba37b7c484c7dfd55bea9821156",
+      "defaults_hash": "b6517b1abf96d8660ce6b69fa1c28b601970784fc74509ea5756d212f9e44b97",
+      "kinematics_hash": "a6b7a49dae61476d5be938121633de8894b00b6e54312506630b9481663d1795",
+      "git_commit_sha": "f3861fc366bfc07ba936c9d8675c3f34aeb75bfa",
+      "wall_clock_timestamp": "2026-09-05T12:06:54.178540+00:00"
+    }
+  },
+  {
+    "mode": "STATIC",
+    "case_id": "13bathroom_i-need-to-throw-away-trash_GT.json",
+    "arm": "combined_inherit",
+    "repeat_index": 1,
+    "outcome": "BELIEF_PLAN_FAILED",
+    "base_pose": {
+      "base_x": -0.05,
+      "base_y": -0.23,
+      "h": 0.35,
+      "base_yaw_deg": 184.24
+    },
+    "selected_pitch_deg": -80.0,
+    "selected_roll_deg": 150.0,
+    "joint_target": [
+      -5.5748973871426206e-05,
+      2.582893423016425,
+      -0.9923737433458336,
+      0.000648257293912359,
+      -0.10702273856743799,
+      1.0465499156250195
+    ],
+    "belief_octree_leaf_count": 2101,
+    "goal_valid_in_belief": false,
+    "goal_contacts": [
+      {
+        "body_1": "<octomap>",
+        "body_2": "link5",
+        "position_xyz": [
+          -0.37057240529588065,
+          -0.2805724052958807,
+          0.254212505354268
+        ],
+        "normal_xyz": [
+          0.2678695661672413,
+          0.963455186047267,
+          1.0641462989609335e-15
+        ],
+        "depth_m": 0.0008150775310080232,
+        "frame": "world",
+        "waypoint_index": 0
+      }
+    ],
+    "num_waypoints": 0,
+    "waypoints": [],
+    "r6_clearance_m": null,
+    "provenance": {
+      "build_hash_scene_builder": "27e24e83ad1c928dcd2aeca2aea94d8c56b3d7618e377941d60a5fef075db0ef",
+      "build_hash_batch_runner": "c9d1faacb457d9b84f943841a4e39af91b7335f01fdab7241c1ef7cf1b692edb",
+      "build_hash_octomap_so": "ed723984e73f8cba17ee6dc6aec2b228875823eafc35713ef0474a002df36697",
+      "build_hash_piper_srdf": "ead07feeecc122c9902436de448d58a43e6faba37b7c484c7dfd55bea9821156",
+      "defaults_hash": "b6517b1abf96d8660ce6b69fa1c28b601970784fc74509ea5756d212f9e44b97",
+      "kinematics_hash": "a6b7a49dae61476d5be938121633de8894b00b6e54312506630b9481663d1795",
+      "git_commit_sha": "f3861fc366bfc07ba936c9d8675c3f34aeb75bfa",
+      "wall_clock_timestamp": "2026-09-05T12:07:05.620470+00:00"
+    }
+  },
+  {
+    "mode": "STATIC",
+    "case_id": "13bathroom_i-need-to-throw-away-trash_GT.json",
+    "arm": "information_bottleneck",
+    "repeat_index": 1,
+    "outcome": "BELIEF_PLAN_FAILED",
+    "base_pose": {
+      "base_x": -0.05,
+      "base_y": -0.23,
+      "h": 0.35,
+      "base_yaw_deg": 184.24
+    },
+    "selected_pitch_deg": -80.0,
+    "selected_roll_deg": 150.0,
+    "joint_target": [
+      -5.5748973871426206e-05,
+      2.582893423016425,
+      -0.9923737433458336,
+      0.000648257293912359,
+      -0.10702273856743799,
+      1.0465499156250195
+    ],
+    "belief_octree_leaf_count": 2101,
+    "goal_valid_in_belief": false,
+    "goal_contacts": [
+      {
+        "body_1": "<octomap>",
+        "body_2": "link5",
+        "position_xyz": [
+          -0.37057240529588065,
+          -0.2805724052958807,
+          0.254212505354268
+        ],
+        "normal_xyz": [
+          0.2678695661672413,
+          0.963455186047267,
+          1.0641462989609335e-15
+        ],
+        "depth_m": 0.0008150775310080232,
+        "frame": "world",
+        "waypoint_index": 0
+      }
+    ],
+    "num_waypoints": 0,
+    "waypoints": [],
+    "r6_clearance_m": null,
+    "provenance": {
+      "build_hash_scene_builder": "27e24e83ad1c928dcd2aeca2aea94d8c56b3d7618e377941d60a5fef075db0ef",
+      "build_hash_batch_runner": "c9d1faacb457d9b84f943841a4e39af91b7335f01fdab7241c1ef7cf1b692edb",
+      "build_hash_octomap_so": "ed723984e73f8cba17ee6dc6aec2b228875823eafc35713ef0474a002df36697",
+      "build_hash_piper_srdf": "ead07feeecc122c9902436de448d58a43e6faba37b7c484c7dfd55bea9821156",
+      "defaults_hash": "b6517b1abf96d8660ce6b69fa1c28b601970784fc74509ea5756d212f9e44b97",
+      "kinematics_hash": "a6b7a49dae61476d5be938121633de8894b00b6e54312506630b9481663d1795",
+      "git_commit_sha": "f3861fc366bfc07ba936c9d8675c3f34aeb75bfa",
+      "wall_clock_timestamp": "2026-09-05T12:07:06.069993+00:00"
+    }
+  }
+]
